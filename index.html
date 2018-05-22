@@ -15,6 +15,7 @@
 <link rel="stylesheet" type="text/css" href="mailform/css/import.css" />
 <link rel="stylesheet" type="text/css" href="mailform/css/mailform.css" />
 <link rel="stylesheet" type="text/css" href="mailform/css/jquery.datetimepicker.css" />
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js"></script>
 <script src="mailform/js/jquery.autoKana.js"></script>
 <script src="mailform/js/ajaxzip3.js"></script>
 <script src="mailform/js/jquery.datetimepicker.js"></script>
@@ -42,7 +43,6 @@ $(function(){
    });
 });
 </script>
-	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js"></script>
 
 
 
@@ -664,20 +664,6 @@ HIPAA準拠アーキテクチャなどの認定を得ている国際基準の高
 <script src="js/mailform-js.php"></script> -->
 
 
-<!-- フリガナ自動入力ライブラリここから -->
-<!-- <script src="js/jquery.autoKana.js"></script> -->
-<script>
-	(function( $ ) {
-    $.fn.autoKana( '#name_1', '#read_1', {
-      katakana: false
-    });
-    $.fn.autoKana( '#name_2', '#read_2', {
-      katakana: false
-    });
-	})( jQuery );
-</script>
-
-
 <!-- フリガナ自動入力ライブラリここまで -->
 
 
@@ -686,16 +672,6 @@ HIPAA準拠アーキテクチャなどの認定を得ている国際基準の高
 <!-- 住所自動入力ライブラリここまで -->
 
 
-<!-- ご希望の日時選択ライブラリここから -->
-<!-- <script src="js/jquery.datetimepicker.js"></script> -->
-<script>
-	(function( $ ) {
-		$( 'input#schedule' ).datetimepicker({
-			lang: 'ja'
-		});
-	})( jQuery );
-</script>
-<!-- ご希望の日時選択ライブラリここまで -->
 
     </div></id>
 
@@ -711,10 +687,10 @@ HIPAA準拠アーキテクチャなどの認定を得ている国際基準の高
 </div>
 
  </div>
-	<script>
+	<!-- <script>
 	// スムーススクロールを起動する
 	smoothScroll.init() ;
-</script>
+</script> -->
 
 </body>
 </html>
