@@ -636,28 +636,25 @@ HIPAA準拠アーキテクチャなどの認定を得ている国際基準の高
 		　<p>料金や導入についての詳しい内容は説明資料がございます。<br>
 下記フォームから資料請求ください。</p></div>
     <div class="form-content">
-		 	<form action="php/mailform.php" method="post" id="mail_form">
-		<dl>
-			<dt><span class="required">必須</span>会社名<span>Company Name</span></dt>
-		<dd> <input type="text" id="company" name="company" value="" /></dd>
+		 	<form name="mailform" action="thanks" data-netlify="true" netlify-honeypot="bot-field" id="mail_form">
+				<dl>
+					<dt><span class="required">必須</span>会社名<span>Company Name</span></dt>
+					<dd><input type="text" id="company" name="company" value="" /></dd>
 
-				<dt><span class="optional">任意</span>部署名<span>Dpartment name</span></dt>
-			<dd><input type="text" id="address" name="address" value="" /></dd>
+					<dt><span class="optional">任意</span>部署名<span>Dpartment name</span></dt>
+					<dd><input type="text" id="address" name="address" value="" /></dd>
 
-			<dt><span class="required">必須</span>お名前<span>Your Name</span></dt>
-			<dd class="required"><input type="text" id="name_1" name="name_1" value="" /> <input type="text" id="name_2" name="name_2" value="" /></dd>
+					<dt><span class="required">必須</span>お名前<span>Your Name</span></dt>
+					<dd class="required"><input type="text" id="name" name="name" value="" /></dd>
 
-			<dt><span class="required">必須</span>メールアドレス<span>Mail Address</span></dt>
-			<dd class="required"><input type="email" id="mail_address" name="mail_address" value="" /></dd>
+					<dt><span class="required">必須</span>メールアドレス<span>Mail Address</span></dt>
+					<dd class="required"><input type="email" id="mail_address" name="mail_address" value="" /></dd>
 
-			<dt><span class="optional">任意</span>電話番号<span>Phone Number</span></dt>
-			<dd><input type="tel" id="phone" name="phone" value="" /></dd>
-
+					<dt><span class="optional">任意</span>電話番号<span>Phone Number</span></dt>
+					<dd><input type="tel" id="phone" name="phone" value="" /></dd>
 			  </dl>
-
-
-		<p id="form_submit"><input type="button" id="form_submit_button" value="送信する" /></p>
-	</form>
+				<p id="form_submit"><input type="button" id="form_submit_button" value="送信する" /></p>
+			</form>
 
 
 <!-- <script src="//ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>

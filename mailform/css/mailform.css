@@ -193,6 +193,10 @@ form#mail_form input#company{
 	width : 60%;
 }
 
+form#mail_form input#name {
+	width : 60%;
+}
+
 form#mail_form input#name_1,
 form#mail_form input#name_2,
 form#mail_form input#read_1,
@@ -200,12 +204,12 @@ form#mail_form input#read_2,
 form#mail_form input#postal,
 form#mail_form input#phone,
 form#mail_form input#schedule{
-	width : 30%;
+	width : 60%;
 }
 
 form#mail_form input#mail_address,
 form#mail_form input#mail_address_confirm{
-	width : 80%;
+	width : 60%;
 }
 
 form#mail_form input#postal+a{
@@ -230,7 +234,7 @@ form#mail_form input#postal+a:hover{
 }
 
 form#mail_form input#address{
-	width : 90%;
+	width : 60%;
 }
 
 form#mail_form p#form_submit{
@@ -250,8 +254,8 @@ form#mail_form input[type="button"]{
 	color : #ffffff;
 	font-family : inherit;
 	-webkit-appearance : none;
-	font-size : 15px; 
-	
+	font-size : 15px;
+
 }
 form#mail_form input[type="button"]:hover{
 	cursor : pointer;
@@ -323,4 +327,3 @@ form#mail_form input#schedule{
 
 }
 /* 640pixel end */
-
