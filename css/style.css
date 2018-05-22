@@ -1,0 +1,3355 @@
+@charset "UTF-8";
+
+/*はじめに*/
+
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+a:link {
+  color: #0000ff;
+  text-decoration: underline;
+}
+
+a:visited {
+  color: #990099;
+  text-decoration: underline;
+}
+
+a:hover {
+  color: #ff0000;
+  text-decoration: underline;
+}
+
+#form{
+	width: 100%;
+
+}
+
+/*ここから本文*/
+/*pc画面1000px以上*/
+
+@media screen and (min-width: 1000px) {
+
+	
+	/*top*/
+	.top{
+		text-align: center;
+		margin: auto;
+	    background-color:#F8F8F8;
+        background-image: url(../img/topbg.png);
+		width: 1000px;
+	    height: 534px;
+	}
+
+	
+	.logo{
+        margin: auto;
+		padding-top: 137px;
+	}
+	
+	.seikyu{
+		padding-top:80px;
+	}
+
+	/*多くの企業が利用中*/
+
+	.many-corp{
+        background-color:#F8F8F8;
+        width: 1000px;
+	    height: 730px;
+		margin: auto;
+		text-align: center;
+	}
+	
+	.many-corp h2{
+    font-family:"ヒラギノ丸ゴ Pro W4","ヒラギノ丸ゴ Pro","Hiragino Maru Gothic Pro","ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","HG丸ｺﾞｼｯｸM-PRO","HGMaruGothicMPRO";	
+	color: #0068b7;
+	font-size: 28px;
+	margin-top: 50px;
+	}
+	
+	.many-corp p{
+    font-family:"ヒラギノ丸ゴ Pro W4","ヒラギノ丸ゴ Pro","Hiragino Maru Gothic Pro","ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","HG丸ｺﾞｼｯｸM-PRO","HGMaruGothicMPRO";	
+	color: #0068b7;
+	font-size: 65px;
+	margin-top: -25px;
+	margin-left: 10px;
+
+	}
+	
+	
+	.qaleft{
+		margin-right:400px;
+		margin-top:35px;
+	}
+	
+	.wandroid{
+       margin-top: -130px;
+	
+	}
+	
+	.qaright{
+		margin-left: 430px;
+		margin-top: -140px;
+	}
+	
+	.android p{
+	margin: auto;
+	font-family:"ヒラギノ丸ゴ Pro W4","ヒラギノ丸ゴ Pro","Hiragino Maru Gothic Pro","ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","HG丸ｺﾞｼｯｸM-PRO","HGMaruGothicMPRO";
+	color: #535353;
+	font-size: 23px;
+	margin-top:70px;
+	}
+
+	
+	.under{
+		text-align: center;
+	}
+	
+/*こんなお悩みはありませんか*/
+	
+	.nayamai{
+		width: 1000px;
+		height:1400px ;
+		background-color: #fff;
+		margin: auto;
+	}
+	
+
+	.fukidashi{
+		text-align: center;
+		margin-top: 0px;
+		padding-top: 40px;
+			
+	}
+
+	.ybox1{
+		margin: auto;
+		text-align: center;
+		padding: 30px;
+		width: 950px;
+	}
+	
+	.bikkuri{
+		padding-right: 40px;
+		padding-bottom: 50px;
+	}
+	
+	.time{
+		padding-bottom: 50px;
+		
+	}
+	
+	.gurafu{
+    	padding-right: 40px;
+	}
+	
+	.gutairei{
+		margin: auto;
+        text-align: center;
+		width: 950px;
+	}
+	
+	.gutairei-left{
+	  float: left;
+      text-align: center;
+	  padding-left: 90px
+	}
+	
+	.gutairei-left h2{
+	font-family:"ヒラギノ丸ゴ Pro W4","ヒラギノ丸ゴ Pro","Hiragino Maru Gothic Pro","ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","HG丸ｺﾞｼｯｸM-PRO","HGMaruGothicMPRO";
+	color: #0068b7;
+	font-size: 18px;
+	padding-bottom: 20px;
+	}
+	
+	
+	.gutairei-left p{
+	font-family:"ヒラギノ丸ゴ Pro W4","ヒラギノ丸ゴ Pro","Hiragino Maru Gothic Pro","ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","HG丸ｺﾞｼｯｸM-PRO","HGMaruGothicMPRO";
+	color: #535353;
+	font-size: 15px;
+	padding-top: 20px;
+	}
+	
+	
+	.gutairei-right{
+		text-align: center;
+		margin-top: 40px
+	}
+	
+	.gutairei-right h2{
+		font-family:"ヒラギノ丸ゴ Pro W4","ヒラギノ丸ゴ Pro","Hiragino Maru Gothic Pro","ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","HG丸ｺﾞｼｯｸM-PRO","HGMaruGothicMPRO";
+	    color: #0068b7;
+     	font-size: 18px;
+	    padding-bottom: 45px;
+
+		}
+
+	.gutairei-right p{
+		font-family:"ヒラギノ丸ゴ Pro W4","ヒラギノ丸ゴ Pro","Hiragino Maru Gothic Pro","ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","HG丸ｺﾞｼｯｸM-PRO","HGMaruGothicMPRO";
+	    color: #535353;
+	    font-size: 15px;
+	    padding-top: 20px;
+	    margin-bottom: 80px;
+	}
+	
+	.under2{
+		clear: both;
+		width: 1000px;
+		margin: auto;
+	    background-color: #f8f8f8;
+
+		
+	}
+	
+  /*こんなお悩みはありませんか*/
+	
+	.solution{
+		width: 1000px;
+		background-color: #f8f8f8;
+		height: 1256px;
+		margin: auto;
+		margin-top: -50px;
+		text-align: center;
+			
+	}
+	
+	.upperlogo{
+		width: 60%;
+		height: 60%;
+	}
+	
+	.underlogo{
+		width: 60%;
+		height: 60%;
+	}
+	
+	.solution-title{
+		padding-top: 80px;
+	}
+	
+	.step{
+        text-align: center;
+		float: left;
+		margin-top:80px;
+		margin-left: 58px
+	}
+	
+	.timeimg{
+		margin-top: 20px;
+	}
+
+	.pc{
+		padding-bottom: 12px;
+	}
+	
+	.answer{
+		margin-top: 7px;
+		padding-bottom: 19px;
+	}
+	
+	.step p{
+		font-family:"ヒラギノ丸ゴ Pro W4","ヒラギノ丸ゴ Pro","Hiragino Maru Gothic Pro","ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","HG丸ｺﾞｼｯｸM-PRO","HGMaruGothicMPRO";
+		color: #535353;	
+	}
+	
+	.movie{
+		clear: both;
+		padding-top:90px;
+		
+	}
+	
+	.under3{
+		clear: both;
+		width: 1000px;
+		margin: auto;
+		margin-top: -20px;
+	}
+
+	/*6つの特徴*/
+		
+	.six	
+		{
+		 margin: auto;
+		 padding-top: 70px;
+		 width: 1000px;
+		height: 2507px;
+		background-color: #fff;
+		}
+	.six-specific{
+		width: 50%;
+		height: 50%
+	}
+	
+	.six-title{
+		text-align: center;
+		
+	}
+	
+	.specific{
+		float: left;
+		margin-top: 30px;
+		margin-left: 70px;
+	}
+	
+	.key{
+		margin-left: 20px
+	}
+	.ycsv{
+		margin-right: -20px;
+	}
+	
+	
+	
+	.specific h2{
+	font-family:"ヒラギノ丸ゴ Pro W4","ヒラギノ丸ゴ Pro","Hiragino Maru Gothic Pro","ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","HG丸ｺﾞｼｯｸM-PRO","HGMaruGothicMPRO";
+	color: #0068b7;
+	font-size: 20px;
+	}
+		
+	.specific p{
+	font-family:"ヒラギノ丸ゴ Pro W4","ヒラギノ丸ゴ Pro","Hiragino Maru Gothic Pro","ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","HG丸ｺﾞｼｯｸM-PRO","HGMaruGothicMPRO";
+	color: #535353;
+	}
+	
+	
+	
+	.renkei{
+	   clear: both;
+	   padding-top:50px;
+	   width: 1000px;
+	   height: 700px;
+	   background-color: #fff;
+	   margin: auto;
+
+	
+	}
+	
+	.renkei-tool{
+	width: 797px;
+	height: 782px;
+	border-radius: 30px;
+	background-color: rgba(43, 77, 67, 0);
+	}
+		
+	.renkei-tool{
+    margin: auto;
+    font-weight: bold;
+    color: #6091d3;/*文字色*/
+    background: #FFF;
+    border: solid 8px #0068b7;/*線*/
+    border-radius: 30px;/*角の丸み*/
+	padding-bottom: 30px;
+	}
+		
+	.dot-bg
+		 {
+
+  margin : auto;
+  width  : 797px;
+  height : 100px;
+  /* ドット（水玉）模様のCSS */
+  background-color   : #ffffff;
+    background-color   : #ffffff;
+  background-image   : radial-gradient(rgba(0, 0, 0, 0.88) 11%, transparent 14%),
+                       radial-gradient(rgba(0, 0, 0, 0.88) 11%, transparent 14%);
+  background-position: 0 0, 4px 4px;
+  background-size    : 8px 8px;
+  border-top-left-radius: 20px;/*角の丸み*/
+  border-top-right-radius: 20px;/*角の丸み*/
+  text-align: center;
+
+}
+	
+	.renkeikanou{
+      margin-top: 30px;
+	}
+		
+	.chat{
+		margin-top: 20px;
+	}
+	
+	.nouledge{
+		margin-top: 0px;
+	}
+	
+	
+	.dot1{
+		margin-left: 31px;
+	}
+	
+	.dot2{
+	   margin-left: 31px;
+	}
+	
+	.chat h2{
+		text-align: center;
+		margin-top:-31px;
+		font-family:"ヒラギノ丸ゴ Pro W4","ヒラギノ丸ゴ Pro","Hiragino Maru Gothic Pro","ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","HG丸ｺﾞｼｯｸM-PRO","HGMaruGothicMPRO";
+		color: #0068b7;
+		font-size: 22px;
+	}
+	
+	.nouledge h2{
+		text-align: center;
+		margin-top:-31px;
+		font-family:"ヒラギノ丸ゴ Pro W4","ヒラギノ丸ゴ Pro","Hiragino Maru Gothic Pro","ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","HG丸ｺﾞｼｯｸM-PRO","HGMaruGothicMPRO";
+		color: #0068b7;
+		font-size: 22px;
+
+	}
+	
+	
+	.logo1{
+	
+	}
+		
+	.logo2{
+    padding-top: 20px
+	
+	}
+		
+	.skype{
+		margin-top:40px;
+		margin-left: 20px;
+	}
+		
+	.chatwork{
+		margin-top:50px;
+		padding-right: 30px;
+	    margin-left: 80px;
+
+	}
+	
+	.line{
+		padding-top:30px;
+		margin-left: 30px;
+	}
+	
+	.slack{
+		margin-top: 45px;
+		margin-left: 20px;
+	}
+	
+	
+	.mt{
+		margin-top: 40px;
+		padding-left:00px;
+		
+	}
+	
+	.sharepoint{
+		padding-top: 50px;
+		margin-left: 50px;
+		
+	}
+	
+	.zendesk{
+		margin-left: 45px;
+		
+	}
+	
+	
+/*メディア掲載実績・取材・登壇実績*/
+
+	.jisseki{
+		width: 1000px;
+		height: 3150px;
+		background-color: #f8f8f8;
+		margin: auto;
+		margin-top:150px;		
+		
+	}
+	
+	.jisseki h2{
+	 margin-top:30px;
+     display: flex;
+     align-items: center;
+	 font-family:"ヒラギノ丸ゴ Pro W4","ヒラギノ丸ゴ Pro","Hiragino Maru Gothic Pro","ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","HG丸ｺﾞｼｯｸM-PRO","HGMaruGothicMPRO";
+	 color: #0068b7;
+	 font-size: 35px;
+   }
+    .jisseki h2:before,
+    .jisseki h2:after {
+       border-top: 4px solid #0068b7;
+       content: "";
+       flex-grow: 1;
+}
+    .jisseki h2:before {
+       margin-right: 1rem;
+}
+    .jisseki h2:after {
+       margin-left: 1rem;
+}
+	
+	
+	.syuzai{
+		float: left;
+		margin-left: 65px ;
+		margin-top:100px;
+	}
+	
+	.syuzai h3{
+    font-family:"ヒラギノ丸ゴ Pro W4","ヒラギノ丸ゴ Pro","Hiragino Maru Gothic Pro","ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","HG丸ｺﾞｼｯｸM-PRO","HGMaruGothicMPRO";
+	color: #0068b7;
+	font-size: 16px;
+	line-height: 18px;
+	}
+	
+	.syuzai p{
+    font-family: 'Kozuka Gothic Pr6N';
+	font-size: 12px;
+	line-height: 18px;
+	color: black;
+
+	}
+	
+	
+	.media{
+		clear: both;
+		padding-top:45px;
+		padding-bottom: 45px;
+		text-align: center
+		
+	}
+	
+	.media h3 {
+	font-family:"ヒラギノ丸ゴ Pro W4","ヒラギノ丸ゴ Pro","Hiragino Maru Gothic Pro","ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","HG丸ｺﾞｼｯｸM-PRO","HGMaruGothicMPRO";
+	color: #0068b7;
+	font-size: 16px;
+	line-height: 18px;
+		
+	}
+	
+	.media p{
+    font-family: 'Kozuka Gothic Pr6N';
+	font-size: 12px;
+	line-height: 18px;
+	color: black;
+
+		
+	}
+	
+	.syuzai2{
+		float: left;
+        margin-left:70px;
+	}
+	
+	
+	.syuzai2 h3 {
+		font-family:"ヒラギノ丸ゴ Pro W4","ヒラギノ丸ゴ Pro","Hiragino Maru Gothic Pro","ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","HG丸ｺﾞｼｯｸM-PRO","HGMaruGothicMPRO";
+	    color: #0068b7;
+	    font-size: 16px;
+	    line-height: 18px;
+	}
+	
+	.syuzai2 p{
+	font-family: 'Kozuka Gothic Pr6N';
+	font-size: 12px;
+	line-height: 18px;
+	color: black;
+	}
+	
+	/*導入事例*/
+	
+	.dounyu-jirei{
+				clear: both;
+		        
+
+	}
+	
+	.dounyu-jirei h3{
+	font-size: 20px;	    
+	font-size: 20px;	    
+    padding: 0.5em 1em;
+    margin: 2em 0;
+    font-weight: bold;
+    color: #fff;/*文字色*/
+    background: #0068b7;
+    border: solid 3px #0068b7;/*線*/
+    border-radius: 10px;/*角の丸み*/
+	font-family:"ヒラギノ丸ゴ Pro W4","ヒラギノ丸ゴ Pro","Hiragino Maru Gothic Pro","ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","HG丸ｺﾞｼｯｸM-PRO","HGMaruGothicMPRO";
+}
+.dounyu-jirei h3 {
+	text-align: center;
+	margin: 80px; 
+   margin: 80px; 
+
+}
+	
+	.box1 {
+    position: relative;
+    margin: 2em 0;
+	padding: 0.5em 1em;
+    border: solid 3px #0068b7;
+    border-radius: 10px;
+	margin-left: 80px;
+	margin-right: 200px;
+	margin-top:-50px;
+
+	
+	}
+   
+	.box1 .box1-title {
+    position: absolute;
+	display: inline-block;
+    top: -13px;
+    left: 60px;
+    padding: 0 9px;
+    line-height: 1;
+    font-size: 22px;
+    background: #f8f8f8;
+    color: #0068b7;
+    font-weight: bold;
+    font-family:"ヒラギノ丸ゴ Pro W4","ヒラギノ丸ゴ Pro","Hiragino Maru Gothic Pro","ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","HG丸ｺﾞｼｯｸM-PRO","HGMaruGothicMPRO";
+}
+
+	.box1 p {
+	margin-top: 10px;	
+    margin-bottom: 10px;
+	font-family:"ヒラギノ丸ゴ Pro W4","ヒラギノ丸ゴ Pro","Hiragino Maru Gothic Pro","ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","HG丸ｺﾞｼｯｸM-PRO","HGMaruGothicMPRO";
+	}
+	
+
+	.piano-logo{
+		margin-top: -170px;
+		margin-left: 820px
+	}
+	
+	
+	.jirei2{
+		margin-top: -80px;
+	}
+	
+	
+	.box2 {
+    position: relative;
+    margin: 2em 0;
+	padding: 0.5em 1em;
+    border: solid 3px #0068b7;
+    border-radius: 10px;
+	margin-left: 80px;
+	margin-right: 200px;
+	margin-top:-50px;
+	}
+   
+	.box2 .box2-title {
+    position: absolute;
+    display: inline-block;
+    top: -13px;
+    left: 60px;
+    padding: 0 9px;
+    line-height: 1;
+    font-size: 22px;
+    background: #f8f8f8;
+    color: #0068b7;
+    font-weight: bold;
+    font-family:"ヒラギノ丸ゴ Pro W4","ヒラギノ丸ゴ Pro","Hiragino Maru Gothic Pro","ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","HG丸ｺﾞｼｯｸM-PRO","HGMaruGothicMPRO";
+}
+
+	.box2 p {
+	margin-top: 10px;	
+    margin-bottom: 10px;
+	font-family:"ヒラギノ丸ゴ Pro W4","ヒラギノ丸ゴ Pro","Hiragino Maru Gothic Pro","ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","HG丸ｺﾞｼｯｸM-PRO","HGMaruGothicMPRO";
+}
+	
+	
+	.human-a{
+		margin-top: -170px;
+		margin-left: 820px
+	}
+	
+	.box3 {
+    position: relative;
+    margin: 2em 0;
+	padding: 0.5em 1em;
+    border: solid 3px #0068b7;
+    border-radius: 10px;
+	margin-left: 80px;
+	margin-right: 200px;
+	margin-top:-50px;
+	}
+   
+	.box3 .box3-title {
+    position: absolute;
+    display: inline-block;
+    top: -13px;
+    left: 100px;
+    padding: 0 9px;
+    line-height: 1;
+    font-size: 22px;
+    background: #f8f8f8;
+    color: #0068b7;
+    font-weight: bold;
+    font-family:"ヒラギノ丸ゴ Pro W4","ヒラギノ丸ゴ Pro","Hiragino Maru Gothic Pro","ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","HG丸ｺﾞｼｯｸM-PRO","HGMaruGothicMPRO";
+}
+
+	.box3 p {
+	margin-top: 10px;	
+    margin-bottom: 10px;
+	font-family:"ヒラギノ丸ゴ Pro W4","ヒラギノ丸ゴ Pro","Hiragino Maru Gothic Pro","ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","HG丸ｺﾞｼｯｸM-PRO","HGMaruGothicMPRO";
+}
+	.jirei4{
+		margin-top: -50px
+	}
+	
+	.human-b{
+	    margin-top: -170px;
+		margin-left: 820px;
+		margin-bottom: 100px
+	}
+	
+	
+	.box10 {
+    position: relative;
+    margin: 2em 0;
+	padding: 0.5em 1em;
+    border: solid 3px #0068b7;
+    border-radius: 10px;
+	margin-left: 80px;
+	margin-right: 200px;
+	margin-top:-50px;
+	}
+   
+	.box10 .box10-title {
+    position: absolute;
+    display: inline-block;
+    top: -13px;
+    left: 170px;
+    padding: 0 9px;
+    line-height: 1;
+    font-size: 22px;
+    background: #f8f8f8;
+    color: #0068b7;
+    font-weight: bold;
+    font-family:"ヒラギノ丸ゴ Pro W4","ヒラギノ丸ゴ Pro","Hiragino Maru Gothic Pro","ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","HG丸ｺﾞｼｯｸM-PRO","HGMaruGothicMPRO";
+    font-family:"ヒラギノ丸ゴ Pro W4","ヒラギノ丸ゴ Pro","Hiragino Maru Gothic Pro","ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","HG丸ｺﾞｼｯｸM-PRO","HGMaruGothicMPRO";
+}
+
+	.box10 p {
+	margin-top: 10px;	
+    margin-bottom: 10px;
+	font-family:"ヒラギノ丸ゴ Pro W4","ヒラギノ丸ゴ Pro","Hiragino Maru Gothic Pro","ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","HG丸ｺﾞｼｯｸM-PRO","HGMaruGothicMPRO";
+}
+
+	
+	.human-c{
+		margin-left: 820px;
+	    margin-top: -300px;
+		
+
+	}
+	
+	
+
+	.box11{
+    position: relative;
+    margin: 2em 0;
+	padding: 0.5em 1em;
+    border: solid 3px #0068b7;
+    border-radius: 10px;
+	margin-left: 80px;
+	margin-right: 200px;
+	margin-top:-50px;
+	}
+   
+	.box11 .box11-title {
+    position: absolute;
+    display: inline-block;
+    top: -13px;
+    left: 100px;
+    padding: 0 9px;
+    line-height: 1;
+    font-size: 22px;
+    background: #f8f8f8;
+    color: #0068b7;
+    font-weight: bold;
+    font-family:"ヒラギノ丸ゴ Pro W4","ヒラギノ丸ゴ Pro","Hiragino Maru Gothic Pro","ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","HG丸ｺﾞｼｯｸM-PRO","HGMaruGothicMPRO";
+}
+
+	.box11 p {
+	margin-top: 10px;	
+    margin-bottom: 10px;
+	font-family:"ヒラギノ丸ゴ Pro W4","ヒラギノ丸ゴ Pro","Hiragino Maru Gothic Pro","ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","HG丸ｺﾞｼｯｸM-PRO","HGMaruGothicMPRO";
+}
+	
+	
+	.human-d{
+	    margin-top: -210px;
+		margin-left: 820px
+	}
+	
+	.jirei5{
+		margin-top:-20px;
+	}
+
+	
+/*my-ope officeと他者チャットボットの違い*/
+	
+	.tigai{
+		width: 997px;
+	    height: 1343px;
+		background-image: url(../img/bgbook.png);
+		margin: auto;
+		margin-top:-40px;
+        
+	}
+	
+	
+	
+	.midashi{
+		text-align: center;
+		padding-top:250px;
+		
+	}
+	
+	.merit{
+		margin-left: 150px;
+	}
+	
+	.merit li{
+		width: 700px;
+		margin-top: 55px;
+		font-family:"ヒラギノ丸ゴ Pro W4","ヒラギノ丸ゴ Pro","Hiragino Maru Gothic Pro","ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","HG丸ｺﾞｼｯｸM-PRO","HGMaruGothicMPRO";
+		font-size: 20px;
+        padding: 0.5em 0; /*前後の文との余白*/
+		border-bottom: solid 3.5px #dadada;/*下に灰色線*/
+		list-style-image:url(../img/黄丸.png);
+        vertical-align: center;
+		font: bold;
+	}
+
+/*導入までの流れ*/
+
+	.nagare{
+		background-image: url(../img/bg9.png);
+		width: 999px;
+	    height: 700px;
+		margin: auto;
+		padding-top:140px;
+	    margin-top: -120px;
+
+		background-repeat: no-repeat;
+	}
+	
+
+	.under5{
+		margin-top: px
+	}
+	
+	/*導入は専任のコンサル担当が担当します*/
+
+	
+	.kadai{
+		margin: auto;
+		width:998px;
+		height: 1200px;
+		background-color: #fff;
+	}
+	
+	.tantou{
+		padding-top:50px;
+        text-align: center;
+	}
+	
+	
+	.box4 {
+    position: relative;
+    margin: 2em 0;
+	padding: 0.5em 1em;
+    border: solid 7px #0068b7;
+    border-radius: 30px;
+	margin-left: 95px;
+	margin-right: 95px;
+
+	}
+   
+	.box4 .box4-title {
+    position: absolute;
+	display: inline-block;
+    top: -23px;
+    left: 85px;
+    padding: 0 9px;
+    line-height: 1;
+    font-size: 40px;
+    background: #fff;
+    color: #0068b7;
+    font-weight: bold;
+    font-family:"ヒラギノ丸ゴ Pro W4","ヒラギノ丸ゴ Pro","Hiragino Maru Gothic Pro","ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","HG丸ｺﾞｼｯｸM-PRO","HGMaruGothicMPRO";
+}
+
+	.box4 p {
+	margin-top: 10px;	
+    margin-bottom: 10px;
+	font-family:"ヒラギノ丸ゴ Pro W4","ヒラギノ丸ゴ Pro","Hiragino Maru Gothic Pro","ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","HG丸ｺﾞｼｯｸM-PRO","HGMaruGothicMPRO";
+   font-size: 13px;
+}
+	
+	.box4 h3{
+		background: url(../img/bluebg.png);
+		width: 370px;
+	    height: 60px;
+		background-repeat: no-repeat;
+        font-size: 25px;
+		margin-top:40px;
+		color: white;
+		font-family:"ヒラギノ丸ゴ Pro W4","ヒラギノ丸ゴ Pro","Hiragino Maru Gothic Pro","ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","HG丸ｺﾞｼｯｸM-PRO","HGMaruGothicMPRO";
+	}
+	
+	.blue-line{
+		padding-top:25px;
+		text-align: center;
+	}
+	
+	
+	
+	.blue-line h3 {
+         
+		 text-align: center;
+		 display:inline-block;
+　　　    vertical-align:top;
+		 padding-top:10px;
+
+	}
+	
+	.yellow-line{
+		width: 370px;
+		
+	}
+	
+.yellow-line  h4{
+	    width: 371px;
+	    height: 271px;
+z		font-family:"ヒラギノ丸ゴ Pro W4","ヒラギノ丸ゴ Pro","Hiragino Maru Gothic Pro","ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","HG丸ｺﾞｼｯｸM-PRO","HGMaruGothicMPRO";
+		color: #626262;
+		padding-top:18px;
+	    background-image: url(../img/yellowbox.png);
+	    background-repeat: no-repeat;
+	
+
+	}
+	
+	.ue{
+		margin-left: 8px;
+	}
+	
+	.shita{
+		margin-left: 388px;
+		margin-top: -290px;
+	}
+	
+
+	.yellow-line h3{
+		display: none;
+	}
+	
+
+	
+
+	
+	.matome p{
+		font-size: 17px;
+		text-align: center;
+		margin-top:10px;
+		
+	}
+	
+	.box-5 {
+    position: relative;
+    margin: 2em 0;
+	padding: 0.5em 1em;
+    border: solid 7px #0068b7;
+    border-radius: 30px;
+	margin-left: 65px;
+	margin-right: 65px;
+	text-align: center;
+	margin-top:70px;
+
+	}
+   
+	.box-5 .box5-title {
+    position: absolute;
+	display: inline-block;
+    top: -23px;
+    left: 300px;
+    padding: 0 9px;
+    line-height: 1;
+    font-size: 35px;
+    background: #fff;
+    color: #0068b7;
+    font-family:"ヒラギノ丸ゴ Pro W4","ヒラギノ丸ゴ Pro","Hiragino Maru Gothic Pro","ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","HG丸ｺﾞｼｯｸM-PRO","HGMaruGothicMPRO";
+
+}
+
+	.box-5 p {
+	margin-top: 35px;	
+    margin-bottom: 0px;
+	font-family:"ヒラギノ丸ゴ Pro W4","ヒラギノ丸ゴ Pro","Hiragino Maru Gothic Pro","ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","HG丸ｺﾞｼｯｸM-PRO","HGMaruGothicMPRO";
+	color: #0068b7;
+    font-size: 22px;
+	display:inline-block;
+	vertical-align: top;
+}
+	.btn{
+		margin-top:-30px;
+	}
+	
+	
+/*質問項目欄*/	
+	
+	.question{
+		width: 1000px;
+		height: 2600px;
+        margin: auto;
+        background-image: url(../img/bg11.png);
+		background-repeat: no-repeat;
+		margin-top: -50px
+	}
+	
+	.shitumon{
+		margin-top: 150px;
+	}
+	
+	.question h3{
+	font-size: 20px;	    
+    padding: 0.5em 1em;
+    margin: 2em 0;
+    font-weight: bold;
+    color: #fff;/*文字色*/
+    background: #0068b7;
+    border: solid 10px #0068b7;/*線*/
+    border-radius: 10px;/*角の丸み*/
+	font-family:"ヒラギノ丸ゴ Pro W4","ヒラギノ丸ゴ Pro","Hiragino Maru Gothic Pro","ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","HG丸ｺﾞｼｯｸM-PRO","HGMaruGothicMPRO";
+	width: 640px;
+	display:inline-block;
+	vertical-align: top;	
+	}
+	
+	
+	
+	.question p{
+		
+	font-size: 14px;	    
+    padding: 0.5em 1em;
+    margin: 2em 0;
+    color: ;/*文字色*/
+    background: #fff;
+    border: solid 15px #fff;/*線*/
+    border-radius: 10px;/*角の丸み*/
+	font-family:"ヒラギノ丸ゴ Pro W4","ヒラギノ丸ゴ Pro","Hiragino Maru Gothic Pro","ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","HG丸ｺﾞｼｯｸM-PRO","HGMaruGothicMPRO";
+	width: 640px;
+	display:inline-block;
+	vertical-align: top;	
+	margin-top:-30px;
+
+}
+	
+	.koumoku{
+		width: 787px;
+		margin: auto;
+	}
+	
+	
+	.q{
+		margin-top:40px;
+	}
+	
+	.a{
+       margin-top:-30px;
+	}
+	
+	.underline4{
+		margin-top: -140px;
+	}
+	
+	
+	/*詳しい資料はこちらから*/
+	.form{
+	 margin-top: -30px;
+	  width: 1000px;
+      background-color:	#fff;
+	}
+	
+	.form-title{
+	text-align: center;		
+	
+	}
+	
+	.f-title{
+		width: 60%;
+		height: 60%;
+		padding-top: 30px;
+	}
+	
+	.form p{
+		text-align: center;
+		margin-top: 20px;
+		font-family:"ヒラギノ丸ゴ Pro W4","ヒラギノ丸ゴ Pro","Hiragino Maru Gothic Pro","ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","HG丸ｺﾞｼｯｸM-PRO","HGMaruGothicMPRO";
+		font-size: 25px;
+	}
+	
+	
+	.footer p{
+		height: 75px;
+		background-color: #0068b7;
+		font: font-family:"ヒラギノ丸ゴ Pro W4","ヒラギノ丸ゴ Pro","Hiragino Maru Gothic Pro","ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","HG丸ｺﾞｼｯｸM-PRO","HGMaruGothicMPRO";
+		font-size: 20px;
+		text-align: center;
+        color: aliceblue;
+        border-radius: 15px;/*角の丸み*/
+	   padding: 0.5em 1em;
+	}
+	
+
+	
+	
+}
+/*レスポンシブPC終了*/
+/*レスポンシブiPad開始*/
+
+@media screen and (min-width: 481px) and (max-width: 999px) {
+	
+	
+	
+	/*top*/
+	.top{
+		text-align: center;
+		margin: auto;
+	    background-color:#F8F8F8;
+        background-image: url(../img/topbg.png);
+		width: 100%;
+		background-repeat: no-repeat
+	}
+
+	
+	.logo{
+        margin: auto;
+		padding-top: 137px;
+	}
+	
+	.seikyu{
+		padding-top:80px;
+	}
+
+	/*多くの企業が利用中*/
+
+	.many-corp{
+        background-color:#F8F8F8;
+        width: 100%;
+	    height: 100%;
+		margin: auto;
+		text-align: center;
+	}
+	
+	.many-corp h2{
+    font-family:"ヒラギノ丸ゴ Pro W4","ヒラギノ丸ゴ Pro","Hiragino Maru Gothic Pro","ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","HG丸ｺﾞｼｯｸM-PRO","HGMaruGothicMPRO";	
+	color: #0068b7;
+	font-size: 20px;
+	margin-top: 50px;
+	}
+	
+	.many-corp p{
+    font-family:"ヒラギノ丸ゴ Pro W4","ヒラギノ丸ゴ Pro","Hiragino Maru Gothic Pro","ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","HG丸ｺﾞｼｯｸM-PRO","HGMaruGothicMPRO";	
+	color: #0068b7;
+	font-size: 43px;
+	margin-top: -25px;
+	margin-left: 10px;
+
+	}
+	
+	
+	.qaleft{
+		margin-right:280px;
+		margin-top:35px;
+	}
+	
+	.wandroid{
+       margin-top: -130px;
+	
+	}
+	
+	.qaright{
+		margin-top: -140px;
+		margin-left: 280px
+	}
+	
+	.android p{
+	margin: auto;
+	font-family:"ヒラギノ丸ゴ Pro W4","ヒラギノ丸ゴ Pro","Hiragino Maru Gothic Pro","ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","HG丸ｺﾞｼｯｸM-PRO","HGMaruGothicMPRO";
+	color: #535353;
+	font-size: 16px;
+	margin-top:70px;
+	}
+
+	
+	.under{
+		text-align: center;
+		width: 100%;
+	}
+	
+/*こんなお悩みはありませんか*/
+	
+	.nayamai{
+		width: 100%;
+		height:100% ;
+		background-color: #fff;
+		margin: auto;
+	}
+	
+
+	.fukidashi{
+		width: 80%;
+		margin: auto;
+		text-align: center;
+		margin-top: 0px;
+		padding-top: 40px;
+			
+	}
+	
+	.arimasenka{
+		width: 100%;
+		height: 100%;
+	}
+
+	.ybox1{
+		margin: auto;
+		text-align: center;
+		width: 100%;
+	}
+	
+	.bikkuri{
+		padding-bottom: 30px;
+	}
+	
+	.time{
+		padding-bottom: 30px;
+		
+	}
+	
+	.gurafu{
+		padding-bottom: 30px;
+
+	}
+	
+		.hatena{
+		padding-bottom: 30px;
+
+	}
+	
+	.gutairei{
+		margin: auto;
+        text-align: center;
+		width: 100%;
+	}
+	
+	.gutairei-left{
+		
+		text-align: center;
+
+	}
+	
+	.gutairei-left h2{
+	font-family:"ヒラギノ丸ゴ Pro W4","ヒラギノ丸ゴ Pro","Hiragino Maru Gothic Pro","ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","HG丸ｺﾞｼｯｸM-PRO","HGMaruGothicMPRO";
+	color: #0068b7;
+	font-size: 18px;
+	padding-bottom: 20px;
+	}
+	
+	
+	.gutairei-left p{
+	font-family:"ヒラギノ丸ゴ Pro W4","ヒラギノ丸ゴ Pro","Hiragino Maru Gothic Pro","ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","HG丸ｺﾞｼｯｸM-PRO","HGMaruGothicMPRO";
+	color: #535353;
+	font-size: 15px;
+	padding-top: 20px;
+	}
+	
+	
+	.gutairei-right{
+		text-align: center;
+		margin-top: 40px
+	}
+	
+	.gutairei-right h2{
+		font-family:"ヒラギノ丸ゴ Pro W4","ヒラギノ丸ゴ Pro","Hiragino Maru Gothic Pro","ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","HG丸ｺﾞｼｯｸM-PRO","HGMaruGothicMPRO";
+	    color: #0068b7;
+     	font-size: 18px;
+	    padding-bottom: 45px;
+
+		}
+
+	.gutairei-right p{
+		font-family:"ヒラギノ丸ゴ Pro W4","ヒラギノ丸ゴ Pro","Hiragino Maru Gothic Pro","ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","HG丸ｺﾞｼｯｸM-PRO","HGMaruGothicMPRO";
+	    color: #535353;
+	    font-size: 15px;
+	    padding-top: 20px;
+	    margin-bottom: 80px;
+	}
+	
+	.under2{
+		clear: both;
+		width: 100%;
+		margin: auto;
+	    background-color: #f8f8f8;
+
+		
+	}
+	
+  /*お悩みを解決して働き方改革*/
+	
+	.solution{
+		width: 100%;
+		background-color: #f8f8f8;
+		height: 100%;
+		margin: auto;
+		margin-top: -50px;
+		text-align: center;
+			
+	}
+	
+	.upperlogo{
+		width: 60%;
+		height: 60%;
+	}
+	
+	.underlogo{
+		width: 60%;
+		height: 60%;
+	}
+	
+	.solution-title{
+		padding-top: 80px;
+	}
+	
+	.step{
+        text-align: center;
+		float: left;
+		margin-top:80px;
+		margin-left: 100px;
+	}
+	
+	.timeimg{
+		margin-top: 20px;
+		margin: auto;
+	}
+
+	.pc{
+		padding-bottom: 12px;
+	}
+	
+	.answer{
+		margin-top: 7px;
+		padding-bottom: 19px;
+	}
+	
+	.step p{
+		font-family:"ヒラギノ丸ゴ Pro W4","ヒラギノ丸ゴ Pro","Hiragino Maru Gothic Pro","ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","HG丸ｺﾞｼｯｸM-PRO","HGMaruGothicMPRO";
+		color: #535353;	
+	}
+	
+	.movie{
+		clear: both;
+		padding-top:20px;
+		width: 100%;
+	}
+	
+	.under3{
+		clear: both;
+		width: 1000px;
+		margin: auto;
+		margin-top: -20px;
+	}
+
+	/*6つの特徴*/
+		
+	.six	
+		{
+		 margin: auto;
+		 padding-top: 70px;
+		 width: 100%;
+		background-color: #fff;
+		}
+	.six-specific{
+		width: 50%;
+		height: 50%
+	}
+	
+	.six-title{
+		text-align: center;
+		
+	}
+	
+	.specific{
+		    margin-top: 50px;
+		    margin-left: 50px;
+            display:inline-block;
+	        vertical-align: top;
+	        
+	}
+	
+	
+	.specific h2{
+	font-family:"ヒラギノ丸ゴ Pro W4","ヒラギノ丸ゴ Pro","Hiragino Maru Gothic Pro","ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","HG丸ｺﾞｼｯｸM-PRO","HGMaruGothicMPRO";
+	color: #0068b7;
+	font-size: 20px;
+	}
+		
+	.specific p{
+	font-family:"ヒラギノ丸ゴ Pro W4","ヒラギノ丸ゴ Pro","Hiragino Maru Gothic Pro","ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","HG丸ｺﾞｼｯｸM-PRO","HGMaruGothicMPRO";
+	color: #535353;
+	}
+	
+	/*さまざまなツールと連携可能*/
+	
+	.renkei{
+	   padding-top:50px;
+	   width: 80%;
+	   background-color: #fff;
+	   margin: auto;
+
+	
+	}
+	
+	.renkei-tool{
+	width: 100%;
+	border-radius: 30px;
+	background-color: rgba(43, 77, 67, 0);
+	}
+		
+	.renkei-tool{
+    margin: auto;
+    font-weight: bold;
+    color: #6091d3;/*文字色*/
+    background: #FFF;
+    border: solid 8px #0068b7;/*線*/
+    border-radius: 30px;/*角の丸み*/
+	}
+		
+	.dot-bg
+		 {
+
+  margin : auto;
+  width  : 100%;
+  /* ドット（水玉）模様のCSS */
+  background-color   : #ffffff;
+    background-color   : #ffffff;
+  background-image   : radial-gradient(rgba(0, 0, 0, 0.88) 11%, transparent 14%),
+                       radial-gradient(rgba(0, 0, 0, 0.88) 11%, transparent 14%);
+  background-position: 0 0, 4px 4px;
+  background-size    : 8px 8px;
+  border-top-left-radius: 20px;/*角の丸み*/
+  border-top-right-radius: 20px;/*角の丸み*/
+  text-align: center;
+
+}
+	
+	.renkeikanou{
+	  width: 80%;
+      margin-top: 30px;
+	  padding-bottom: 15px;
+	}
+		
+	
+	.dot1{
+   display: none;
+	}
+	
+	.dot2{
+	  display: none;
+		
+	}
+	
+	.chat h2{
+		  display: none;
+
+	}
+	
+	.nouledge h2{
+		  display: none;
+	}
+		
+	.skype{
+    width: 50%;
+	height: 80%; 
+	margin-left: 30px;
+				margin-top: 15px;
+
+	}
+		
+	.chatwork{
+	width: 40%;
+	height: 60%;
+	margin-left: 30px;
+	margin-top: 15px;
+
+
+	}
+	
+	.line{
+	width: 20%;
+	height: 20%;
+	margin-top: 15px;
+    margin-left: 10px;
+
+	}
+	
+	.slack{
+	width: 30%;
+	height: 30%;
+			margin-left: 30px;
+				margin-top: 45px;
+
+
+	}
+	
+	
+	.mt{
+	width: 45%;
+	height: 50%;
+	margin-left: 20px;
+
+		
+	}
+	
+	.sharepoint{
+	margin-left: 35px;
+	width: 37%;
+	height: 50%;
+	padding-bottom: 20px
+	}
+	
+	.zendesk{
+			
+		margin-top:-140px;
+        width: 30%;
+    	height: 20%;
+		margin-left: 55px;
+	}
+	
+	
+/*メディア掲載実績・取材・登壇実績*/
+
+	.jisseki{
+		width: 100%;
+		height: 100%;
+		background-color: #f8f8f8;
+		margin: auto;
+		margin-top:150px;		
+		
+	}
+	
+	.jisseki-title h2{
+		width: 80%;
+		margin: auto;
+		padding-bottom: 30px;
+	}
+	
+	.jisseki h2{
+	 margin-top:30px;
+     display: flex;
+     align-items: center;
+	 font-family:"ヒラギノ丸ゴ Pro W4","ヒラギノ丸ゴ Pro","Hiragino Maru Gothic Pro","ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","HG丸ｺﾞｼｯｸM-PRO","HGMaruGothicMPRO";
+	 color: #0068b7;
+	 font-size: 4vw;
+   }
+    .jisseki h2:before,
+    .jisseki h2:after {
+       border-top: 4px solid #0068b7;
+       content: "";
+       flex-grow: 1;
+}
+    .jisseki h2:before {
+       margin-right: 1rem;
+}
+    .jisseki h2:after {
+       margin-left: 1rem;
+}
+	
+	
+	.syuzai{
+	display:inline-block;
+	vertical-align: top;
+	margin-top: 20px;
+	margin-left: 15%;
+	}
+	
+	.syuzai h3{
+    font-family:"ヒラギノ丸ゴ Pro W4","ヒラギノ丸ゴ Pro","Hiragino Maru Gothic Pro","ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","HG丸ｺﾞｼｯｸM-PRO","HGMaruGothicMPRO";
+	color: #0068b7;
+	font-size: 2vw;
+	line-height: 18px;
+	}
+	
+	.syuzai p{
+    font-family: 'Kozuka Gothic Pr6N';
+	font-size: 1.5vw;
+	line-height: 18px;
+	color: black;
+
+	}
+	
+	.media-keisai{
+		width: 60%;
+		height: 60%
+	}
+	
+	.media{
+		padding-top:45px;
+		padding-bottom: 45px;
+		text-align: center;
+	}
+	
+	.media h3 {
+	font-family:"ヒラギノ丸ゴ Pro W4","ヒラギノ丸ゴ Pro","Hiragino Maru Gothic Pro","ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","HG丸ｺﾞｼｯｸM-PRO","HGMaruGothicMPRO";
+	color: #0068b7;
+	font-size: 2vw;
+	line-height: 18px;
+		
+	}
+	
+	.media p{
+    font-family: 'Kozuka Gothic Pr6N';
+	font-size: 1.5vw;
+	line-height: 18px;
+	color: black;
+
+		
+	}
+	
+	.syuzai2{
+		
+		display:inline-block;
+    	vertical-align: top;
+        margin-left:20%;
+		margin-top: 20px;
+	}
+	
+	
+	.syuzai2 h3 {
+		font-family:"ヒラギノ丸ゴ Pro W4","ヒラギノ丸ゴ Pro","Hiragino Maru Gothic Pro","ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","HG丸ｺﾞｼｯｸM-PRO","HGMaruGothicMPRO";
+	    color: #0068b7;
+	    font-size: 2vw;
+	    line-height: 18px;
+	}
+	
+	.syuzai2 p{
+	font-family: 'Kozuka Gothic Pr6N';
+	font-size: 1.5vw;
+	line-height: 18px;
+	color: black;
+	}
+	
+	
+/*導入事例*/
+	
+	
+	.dounyu-jirei{
+		width: 70%;
+        margin-left: 15%;	
+	}
+	
+	.dounyu-jirei h2{
+		margin-bottom: 50px;
+	}
+	
+	.dounyu-jirei h3{
+	width: 80%;
+    padding: 0.5em 1em;
+    margin: 2em 0;
+    font-weight: bold;
+    color: #fff;/*文字色*/
+    background: #0068b7;
+    border: solid 3px #0068b7;/*線*/
+    border-radius: 10px;/*角の丸み*/
+	font-family:"ヒラギノ丸ゴ Pro W4","ヒラギノ丸ゴ Pro","Hiragino Maru Gothic Pro","ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","HG丸ｺﾞｼｯｸM-PRO","HGMaruGothicMPRO";
+	margin: auto;
+	margin-bottom: 40px;
+	margin-top: 30px;
+		
+	}
+.dounyu-jirei h3 {
+	text-align: center;
+	    margin: auto;
+
+}
+	.box1 {
+    position: relative;
+    margin: 2em 0;
+	padding: 0.5em 1em;
+    border: solid 3px #0068b7;
+    border-radius: 10px;
+
+	}
+   
+	.box1 .box1-title {
+    position: absolute;
+    display: inline-block;
+    top: -7px;
+    left: 12%;
+    padding: 0 9px;
+    line-height: 1;
+    font-size: 2vw;
+    background: #f8f8f8;
+    color: #0068b7;
+    font-weight: bold;
+    font-family:"ヒラギノ丸ゴ Pro W4","ヒラギノ丸ゴ Pro","Hiragino Maru Gothic Pro","ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","HG丸ｺﾞｼｯｸM-PRO","HGMaruGothicMPRO";
+}
+
+	.box1 p {
+	margin-top: 10px;	
+    margin-bottom: 10px;
+	font-family:"ヒラギノ丸ゴ Pro W4","ヒラギノ丸ゴ Pro","Hiragino Maru Gothic Pro","ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","HG丸ｺﾞｼｯｸM-PRO","HGMaruGothicMPRO";
+}
+	
+	
+	.piano-logo{
+		display:none;
+			
+	}
+	
+	
+	.box2 {
+    position: relative;
+    margin: 2em 0;
+	padding: 0.5em 1em;
+    border: solid 3px #0068b7;
+    border-radius: 10px;
+
+	}
+   
+	.box2 .box2-title {
+    position: absolute;
+    display: inline-block;
+    top: -6px;
+    left: 12%;
+    padding: 0 9px;
+    line-height: 1;
+    font-size: 2vw;
+    background: #f8f8f8;
+    color: #0068b7;
+    font-weight: bold;
+    font-family:"ヒラギノ丸ゴ Pro W4","ヒラギノ丸ゴ Pro","Hiragino Maru Gothic Pro","ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","HG丸ｺﾞｼｯｸM-PRO","HGMaruGothicMPRO";
+}
+
+	.box2 p {
+	margin-top: 10px;	
+    margin-bottom: 10px;
+	font-family:"ヒラギノ丸ゴ Pro W4","ヒラギノ丸ゴ Pro","Hiragino Maru Gothic Pro","ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","HG丸ｺﾞｼｯｸM-PRO","HGMaruGothicMPRO";
+}
+	
+	
+	.human-a{
+		display:none;
+			
+	}
+	
+	.box3 {
+    position: relative;
+    margin: 2em 0;
+	padding: 0.5em 1em;
+    border: solid 3px #0068b7;
+    border-radius: 10px;
+
+	}
+   
+	.box3 .box3-title {
+    position: absolute;
+    display: inline-block;
+    top: -10px;
+    left: 14%;
+    padding: 0 9px;
+    line-height: 1;
+    font-size: 2vw;
+    background: #f8f8f8;
+    color: #0068b7;
+    font-weight: bold;
+    font-family:"ヒラギノ丸ゴ Pro W4","ヒラギノ丸ゴ Pro","Hiragino Maru Gothic Pro","ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","HG丸ｺﾞｼｯｸM-PRO","HGMaruGothicMPRO";
+}
+
+	.box3 p {
+	margin-top: 10px;	
+    margin-bottom: 10px;
+	font-family:"ヒラギノ丸ゴ Pro W4","ヒラギノ丸ゴ Pro","Hiragino Maru Gothic Pro","ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","HG丸ｺﾞｼｯｸM-PRO","HGMaruGothicMPRO";
+}
+	
+	
+	.human-b{
+	display: none;
+	}
+	
+	
+	.jirei4{
+		margin-top: -70px
+	}
+	
+	.box10 {
+    position: relative;
+    margin: 2em 0;
+	padding: 0.5em 1em;
+    border: solid 3px #0068b7;
+    border-radius: 10px;
+
+	}
+   
+	.box10 .box10-title {
+    position: absolute;
+    display: inline-block;
+    top: -10px;
+    left: 25%;
+    padding: 0 9px;
+    line-height: 1;
+    font-size: 2vw;
+    background: #f8f8f8;
+    color: #0068b7;
+    font-weight: bold;
+    font-family:"ヒラギノ丸ゴ Pro W4","ヒラギノ丸ゴ Pro","Hiragino Maru Gothic Pro","ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","HG丸ｺﾞｼｯｸM-PRO","HGMaruGothicMPRO";
+}
+
+	.box10 p {
+	margin-top: 10px;	
+    margin-bottom: 10px;
+	font-family:"ヒラギノ丸ゴ Pro W4","ヒラギノ丸ゴ Pro","Hiragino Maru Gothic Pro","ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","HG丸ｺﾞｼｯｸM-PRO","HGMaruGothicMPRO";
+}
+	
+	
+	.human-c{
+	display: none;
+	}
+	
+	.jirei-1{
+	}
+	
+	.box11 {
+    position: relative;
+    margin: 2em 0;
+	padding: 0.5em 1em;
+    border: solid 3px #0068b7;
+    border-radius: 10px;
+
+	}
+   
+	
+
+	.box11 p {
+	margin-top: 10px;	
+    margin-bottom: 10px;
+	font-family:"ヒラギノ丸ゴ Pro W4","ヒラギノ丸ゴ Pro","Hiragino Maru Gothic Pro","ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","HG丸ｺﾞｼｯｸM-PRO","HGMaruGothicMPRO";
+}
+	
+	.box11 .box11-title {
+    position: absolute;
+    display: inline-block;
+    top: -10px;
+    left: 15%;
+    padding: 0 9px;
+    line-height: 1;
+    font-size: 2vw;
+    background: #f8f8f8;
+    color: #0068b7;
+    font-weight: bold;
+    font-family:"ヒラギノ丸ゴ Pro W4","ヒラギノ丸ゴ Pro","Hiragino Maru Gothic Pro","ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","HG丸ｺﾞｼｯｸM-PRO","HGMaruGothicMPRO";
+}
+
+	.human-d{
+		display: none;
+	}
+	
+	
+	.dounyu-jirei br {
+    display: none;
+  }
+	
+	
+	
+	
+	/*myopeofficeとチャットボットの違い*/
+	
+	.tigai{
+		background-color: #fff;
+		width: 80%;
+		margin: auto;
+		padding-bottom: 180px;
+	}
+	
+	
+	
+	.tigailogo{
+		width: 80%;
+	    height: 80%;
+	}
+	
+	.tigaiunderline{
+		width: 90%;
+	}
+	
+	.midashi{
+		width: 100%;
+		text-align: center;
+		padding-top:100px;
+		
+	}
+	
+	.merit{
+		width: 100%;
+	}
+	
+	.merit li{
+		width: 90%;
+		margin: auto;
+		margin-top: 40px;
+		font-family:"ヒラギノ丸ゴ Pro W4","ヒラギノ丸ゴ Pro","Hiragino Maru Gothic Pro","ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","HG丸ｺﾞｼｯｸM-PRO","HGMaruGothicMPRO";
+		font-size: 2vw;
+        border-bottom: solid 3.5px #dadada;/*下に灰色線*/
+		list-style-image:url(../img/黄丸.png);
+		vertical-align: center;
+        font: bold;
+	}
+
+/*導入までの流れ*/
+
+	.nagare{
+		background-image: url(../img/bg9.png);
+		width: 100%;
+		margin: auto;
+		padding-top:140px;
+	    margin-top: -120px;
+
+	}
+	
+	.nagare6made{
+		width: 100%;
+		height: 100%;
+	}
+	
+	.nagaretitle{
+		width: 100%;
+		height: 100%;
+	}
+
+	.under5{
+	}
+	
+	/*導入は専任のコンサル担当が担当します*/
+	
+	.kadai{
+		margin: auto;
+		width:100%;
+		background-color: #fff;
+	}
+	
+	.tantou{
+		text-align: center;
+
+	}
+	
+	.tantoushimasu{
+		
+		width: 80%;
+		height: 60%;
+
+	}
+	
+
+	
+	.box4 { 
+	position: relative;
+    margin: 2em 0;
+	padding: 0.5em 1em;
+    border: solid 7px #0068b7;
+    border-radius: 30px;
+	}
+   
+	.box4 .box4-title {
+    position: absolute;
+	display: inline-block;
+	top: -17px;
+	margin-left: 10%;
+    line-height: 1;
+    font-size: 4vw;
+    background: #fff;
+    color: #0068b7;
+    font-weight: bold;
+    font-family:"ヒラギノ丸ゴ Pro W4","ヒラギノ丸ゴ Pro","Hiragino Maru Gothic Pro","ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","HG丸ｺﾞｼｯｸM-PRO","HGMaruGothicMPRO";
+	 margin-left:17%;
+
+
+}
+
+	.box4 p {
+	margin-top: 10px;	
+    margin-bottom: 10px;
+	font-family:"ヒラギノ丸ゴ Pro W4","ヒラギノ丸ゴ Pro","Hiragino Maru Gothic Pro","ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","HG丸ｺﾞｼｯｸM-PRO","HGMaruGothicMPRO";
+}
+	
+	.box4 h3{
+		text-align: center;
+        margin: auto;
+		background-color: #0068b7;
+		background-repeat: no-repeat;
+        font-size: 27px;
+	    margin-top:40px;
+        color: white;
+		font-family:"ヒラギノ丸ゴ Pro W4","ヒラギノ丸ゴ Pro","Hiragino Maru Gothic Pro","ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","HG丸ｺﾞｼｯｸM-PRO","HGMaruGothicMPRO";
+		border-radius: 10px; 
+		margin-bottom: 10px;
+
+	}
+
+
+	
+	.teityaku{
+		display: none;
+	}
+	
+	.yellow-line p{
+		text-align: center;
+        margin: auto;
+		width: 80%;
+		background-repeat: no-repeat;
+        font-size: 15px;
+		font-family:"ヒラギノ丸ゴ Pro W4","ヒラギノ丸ゴ Pro","Hiragino Maru Gothic Pro","ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","HG丸ｺﾞｼｯｸM-PRO","HGMaruGothicMPRO";
+		border-radius: 10px; 
+		margin-bottom: 10px;
+	}
+	
+	.blue-line{
+		padding-top:25px;
+	}
+	
+	
+	
+	
+	.yellow-line  h4{
+		
+        background-color: #fff891;
+        font-size: 2vw;
+		font-family:"ヒラギノ丸ゴ Pro W4","ヒラギノ丸ゴ Pro","Hiragino Maru Gothic Pro","ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","HG丸ｺﾞｼｯｸM-PRO","HGMaruGothicMPRO";
+		color: #626262;
+		padding-top:18px;
+		text-align: center;
+		border-radius: 10px;
+		padding-bottom: 20px;
+		width: 100%;
+		
+
+	}
+	
+	.yellow-line h4{
+		margin-bottom: 50px;
+	}
+	
+    .yellow-line h4{
+		 display:inline-block;
+		 vertical-align: top;
+	}
+	
+	.matome p{
+		text-align: center;
+		font-size: 20px;
+		
+	}
+	
+	.box-5 {
+    position: relative;
+    margin: 2em 0;
+	padding: 0.5em 1em;
+    border: solid 7px #0068b7;
+    border-radius: 30px;
+	text-align: center;
+    width: 90%;
+    margin:auto;
+    padding-bottom: 30px;
+    margin-top:70px;
+	margin-bottom: 75px;
+		
+	}
+   
+	.box-5 .box5-title {
+    position: absolute;
+	display: inline-block;
+    top: -18px;
+	padding: 0 9px;
+    line-height: 1;
+    font-size: 30px;
+    background: #fff;
+    color: #0068b7;
+    font-family:"ヒラギノ丸ゴ Pro W4","ヒラギノ丸ゴ Pro","Hiragino Maru Gothic Pro","ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","HG丸ｺﾞｼｯｸM-PRO","HGMaruGothicMPRO";
+    margin-left: 23%;
+}
+
+	.box-5 p {
+	margin-top: 35px;	
+	font-family:"ヒラギノ丸ゴ Pro W4","ヒラギノ丸ゴ Pro","Hiragino Maru Gothic Pro","ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","HG丸ｺﾞｼｯｸM-PRO","HGMaruGothicMPRO";
+	color: #0068b7;
+    font-size: 2.5vw;
+	display:inline-block;
+	vertical-align: top;
+}
+	.btn{
+		margin-top:-30px;
+	}
+	
+	.shita p{
+		background-color:#fff891;
+	     font-family:"ヒラギノ丸ゴ Pro W4","ヒラギノ丸ゴ Pro","Hiragino Maru Gothic Pro","ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","HG丸ｺﾞｼｯｸM-PRO","HGMaruGothicMPRO";
+		color: rgba(85,82,82,1.00);
+		font-size: 2vw;
+	}
+	
+	.ue p{
+			background-color:#fff891;
+	font-family:"ヒラギノ丸ゴ Pro W4","ヒラギノ丸ゴ Pro","Hiragino Maru Gothic Pro","ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","HG丸ｺﾞｼｯｸM-PRO","HGMaruGothicMPRO";
+		color: rgba(85,82,82,1.00);
+		font-size: 2vw;
+	}
+	
+/*質問項目欄*/	
+	
+	.question{
+		width: 100%;
+	    height: 100%;
+        margin: auto;
+        background-image: url(../img/bg11.png);
+		background-repeat: no-repeat;
+		margin-top:-55px;
+	}
+	
+	.shitumon{
+		width: 100%;
+		height: 100%;
+		margin-top: 100px;
+		padding-bottom: 40px;
+	}
+	
+	.qaq{
+		width: 100%;
+	}
+	
+	.question h3{
+	font-size: 18px;	    
+    margin: 2em 0;
+    font-weight: bold;
+    color: #fff;/*文字色*/
+    background: #0068b7;
+    border: solid 10px #0068b7;/*線*/
+    border-radius: 10px;/*角の丸み*/
+	font-family:"ヒラギノ丸ゴ Pro W4","ヒラギノ丸ゴ Pro","Hiragino Maru Gothic Pro","ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","HG丸ｺﾞｼｯｸM-PRO","HGMaruGothicMPRO";
+	display:inline-block;
+	vertical-align: top;
+	width: 80%;
+	text-align: center;
+	margin-left: 10%;
+	}
+	
+	
+	
+	.question p{
+		
+	font-size: 14px;	    
+    margin: 2em 0;
+    color: ;/*文字色*/
+    background: #fff;
+    border: solid 15px #fff;/*線*/
+    border-radius: 10px;/*角の丸み*/
+	font-family:"ヒラギノ丸ゴ Pro W4","ヒラギノ丸ゴ Pro","Hiragino Maru Gothic Pro","ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","HG丸ｺﾞｼｯｸM-PRO","HGMaruGothicMPRO";
+    display:inline-block;
+	vertical-align: top;	
+	margin-top:-30px;
+    width: 79%;
+	margin-left: 10%;
+}
+	
+	.koumoku{
+		width: 100%;
+		margin: auto;
+	}
+	
+	
+	.q{
+        margin-top:40px;
+		display:none;
+	}
+	
+	.a{
+       margin-top:-30px;
+		display: none;
+
+	}
+	
+	.under5{
+		width: 100%;
+	}
+	.under3{
+		width: 100%;
+	}
+	
+	.underline4{
+		width: 100%;
+	}
+	
+	
+	
+	/*詳しい資料はこちらから*/
+	.form{
+	 margin-top: -30px;
+	  width: 100%;
+      background-color:	#fff;
+	}
+	
+	.form-title{
+	text-align: center;		
+	
+	}
+	
+	.f-title{
+		width: 60%;
+		height: 60%;
+		padding-top: 30px;
+	}
+	
+	.form p{
+		text-align: center;
+		margin-top: 20px;
+		font-family:"ヒラギノ丸ゴ Pro W4","ヒラギノ丸ゴ Pro","Hiragino Maru Gothic Pro","ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","HG丸ｺﾞｼｯｸM-PRO","HGMaruGothicMPRO";
+		font-size: 25px;
+	}
+	
+	
+	.footer p{
+		height: 75px;
+		background-color: #0068b7;
+		font: font-family:"ヒラギノ丸ゴ Pro W4","ヒラギノ丸ゴ Pro","Hiragino Maru Gothic Pro","ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","HG丸ｺﾞｼｯｸM-PRO","HGMaruGothicMPRO";
+		font-size: 20px;
+		text-align: center;
+        color: aliceblue;
+        border-radius: 15px;/*角の丸み*/
+	   padding: 0.5em 1em;
+	}
+	
+	
+	
+	
+}
+
+	
+	
+
+/*レスポンシブiPad終了*/
+
+/*レスポンシブiphone*/
+@media screen and (max-width: 480px)
+
+{
+	
+	
+		/*top*/
+	.top{
+		text-align: center;
+		margin: auto;
+	    background-color:#F8F8F8;
+        background-image: url(../img/topbg.png);
+		width: 100%;
+		height: 100%;
+		background-repeat: no-repeat;
+			
+	}
+
+	
+	.logo{
+        margin: auto;
+		padding-top: 137px;
+		width:80%;
+		height: 90%;
+	}
+	
+	.seikyu{
+		margin-top:180px;
+		margin-left: 70px;
+	}
+
+	/*多くの企業が利用中*/
+
+	.many-corp{
+        background-color:#F8F8F8;
+        width: 100%;
+		margin: auto;
+		text-align: center;
+	}
+	
+	.many-corp h2{
+    font-family:"ヒラギノ丸ゴ Pro W4","ヒラギノ丸ゴ Pro","Hiragino Maru Gothic Pro","ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","HG丸ｺﾞｼｯｸM-PRO","HGMaruGothicMPRO";	
+	color: #0068b7;
+	font-size: 20px;
+	margin-top: 50px;
+	}
+	
+	.many-corp p{
+    font-family:"ヒラギノ丸ゴ Pro W4","ヒラギノ丸ゴ Pro","Hiragino Maru Gothic Pro","ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","HG丸ｺﾞｼｯｸM-PRO","HGMaruGothicMPRO";	
+	color: #0068b7;
+	font-size: 25px;
+	margin-top: -25px;
+	margin-left: 10px;
+
+	}
+	
+	
+	.qaleft{
+		margin-right:50%;
+		margin-top:35px;
+	}
+	
+
+	
+	.qaright{
+		margin-top: -16px;
+		margin-left: 50%
+	}
+	
+	.android p{
+	margin: auto;
+	font-family:"ヒラギノ丸ゴ Pro W4","ヒラギノ丸ゴ Pro","Hiragino Maru Gothic Pro","ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","HG丸ｺﾞｼｯｸM-PRO","HGMaruGothicMPRO";
+	color: #535353;
+	font-size: 20px;
+	margin-top:70px;
+	}
+
+	
+	.under{
+		text-align: center;
+		width: 100%;
+	}
+	
+/*こんなお悩みはありませんか*/
+	
+	.nayamai{
+		width: 100%;
+		background-color: #fff;
+		margin: auto;
+		
+	}
+	.gutairei-left br{
+		display: none;
+	}
+	
+
+	.fukidashi{
+		width: 100%;
+		margin: auto;
+		text-align: center;
+		padding-top: 40px;
+			
+	}
+	
+	.arimasenka{
+		width: 100%;
+		height: 100%;
+	}
+
+	.ybox1{
+		margin: auto;
+		text-align: center;
+	}
+	
+	.bikkuri{
+		padding-bottom: 30px;
+
+	}
+	
+	.time{
+		padding-bottom: 30px;
+		
+	}
+	
+	.gurafu{
+		padding-bottom: 30px;
+
+	}
+	
+		.hatena{
+		padding-bottom: 30px;
+
+	}
+	
+	.gutairei{
+		margin: auto;
+        text-align: center;
+		width: 100%;
+	}
+	
+	.gutairei-left{
+		
+		text-align: center;
+
+	}
+	
+	.gutairei-left h2{
+	font-family:"ヒラギノ丸ゴ Pro W4","ヒラギノ丸ゴ Pro","Hiragino Maru Gothic Pro","ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","HG丸ｺﾞｼｯｸM-PRO","HGMaruGothicMPRO";
+	color: #0068b7;
+	font-size: 18px;
+	padding-bottom: 20px;
+	}
+	
+	
+	.gutairei-left p{
+	font-family:"ヒラギノ丸ゴ Pro W4","ヒラギノ丸ゴ Pro","Hiragino Maru Gothic Pro","ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","HG丸ｺﾞｼｯｸM-PRO","HGMaruGothicMPRO";
+	color: #535353;
+	font-size: 15px;
+	padding-top: 20px;
+	}
+	
+	
+	.gutairei-right{
+		text-align: center;
+		margin-top: 40px
+	}
+	
+	.gutairei-right h2{
+		font-family:"ヒラギノ丸ゴ Pro W4","ヒラギノ丸ゴ Pro","Hiragino Maru Gothic Pro","ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","HG丸ｺﾞｼｯｸM-PRO","HGMaruGothicMPRO";
+	    color: #0068b7;
+     	font-size: 18px;
+	    padding-bottom: 45px;
+
+		}
+
+	.gutairei-right p{
+		font-family:"ヒラギノ丸ゴ Pro W4","ヒラギノ丸ゴ Pro","Hiragino Maru Gothic Pro","ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","HG丸ｺﾞｼｯｸM-PRO","HGMaruGothicMPRO";
+	    color: #535353;
+	    font-size: 15px;
+	    padding-top: 20px;
+	    margin-bottom: 80px;
+	}
+	
+	.under2{
+		display: none;
+
+		
+	}
+	
+  /*お悩みを解決して働き方改革*/
+	
+	.solution{
+		width: 100%;
+		background-color: #f8f8f8;
+		margin: auto;
+		text-align: center;
+			
+	}
+	
+	.upperlogo{
+		width: 60%;
+		height: 60%;
+	}
+	
+	.underlogo{
+		width: 60%;
+		height: 60%;
+	}
+	
+	.solution-title{
+		padding-top: 80px;
+	}
+	
+	.step{
+        text-align: center;
+		float: left;
+		margin-top:80px;
+		margin-left: 15%;
+	}
+	
+	.timeimg{
+		margin-top: 20px;
+		margin: auto;
+	}
+
+	.pc{
+		padding-bottom: 12px;
+	}
+	
+	.answer{
+		margin-top: 7px;
+		padding-bottom: 19px;
+	}
+	
+	.step p{
+		font-family:"ヒラギノ丸ゴ Pro W4","ヒラギノ丸ゴ Pro","Hiragino Maru Gothic Pro","ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","HG丸ｺﾞｼｯｸM-PRO","HGMaruGothicMPRO";
+		color: #535353;	
+	}
+	
+	.movie{
+		clear: both;
+		padding-top:40px;
+		width: 90%;
+		height: 60%;
+		margin: auto;
+		margin-bottom: 10px;
+		
+	}
+	
+	.under3{
+		clear: both;
+		width: 1000px;
+		margin: auto;
+		margin-top: -20px;
+	}
+
+	/*6つの特徴*/
+		
+	.six	
+		{
+		 margin: auto;
+		 padding-top: 70px;
+		 width: 100%;
+		background-color: #fff;
+		}
+	.six-specific{
+		width: 70%;
+		height: 50%
+	}
+	
+	.six-title{
+		text-align: center;
+		
+	}
+	
+	.specific{
+		    margin-top: 50px;
+            display:inline-block;
+	        vertical-align: top;
+		    margin-left: 20%;
+	        
+	}
+	
+	
+	.specific h2{
+	font-family:"ヒラギノ丸ゴ Pro W4","ヒラギノ丸ゴ Pro","Hiragino Maru Gothic Pro","ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","HG丸ｺﾞｼｯｸM-PRO","HGMaruGothicMPRO";
+	color: #0068b7;
+	font-size: 20px;
+	}
+		
+	.specific p{
+	font-family:"ヒラギノ丸ゴ Pro W4","ヒラギノ丸ゴ Pro","Hiragino Maru Gothic Pro","ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","HG丸ｺﾞｼｯｸM-PRO","HGMaruGothicMPRO";
+	color: #535353;
+	}
+	
+	/*さまざまなツールと連携可能*/
+	
+	.renkei{
+	   padding-top:50px;
+	   width: 80%;
+	   background-color: #fff;
+	   margin: auto;
+
+	
+	}
+	
+	.renkei-tool{
+	width: 100%;
+	border-radius: 30px;
+	background-color: rgba(43, 77, 67, 0);
+	}
+		
+	.renkei-tool{
+    margin: auto;
+    font-weight: bold;
+    color: #6091d3;/*文字色*/
+    background: #FFF;
+    border: solid 8px #0068b7;/*線*/
+    border-radius: 30px;/*角の丸み*/
+	}
+		
+	.dot-bg
+		 {
+
+  margin : auto;
+  width  : 100%;
+  /* ドット（水玉）模様のCSS */
+  background-color   : #ffffff;
+    background-color   : #ffffff;
+  background-image   : radial-gradient(rgba(0, 0, 0, 0.88) 11%, transparent 14%),
+                       radial-gradient(rgba(0, 0, 0, 0.88) 11%, transparent 14%);
+  background-position: 0 0, 4px 4px;
+  background-size    : 8px 8px;
+  border-top-left-radius: 20px;/*角の丸み*/
+  border-top-right-radius: 20px;/*角の丸み*/
+  text-align: center;
+
+}
+	
+	.renkeikanou{
+	  width: 80%;
+	 height: 80%;
+      margin-top: 30px;
+		margin-bottom: 15px;
+
+	}
+		
+	
+	.dot1{
+   display: none;
+	}
+	
+	.dot2{
+	  display: none;
+		
+	}
+	
+	.chat h2{
+		  display: none;
+
+	}
+	
+	.nouledge h2{
+		  display: none;
+
+
+	}
+	
+
+		
+	.skype{
+    width: 90%;
+	height: 80%;
+    margin-left: 10px;
+	}
+		
+	.chatwork{
+	width: 70%;
+	height: 70%;
+	margin-left: 30px;
+	margin-top: 20px;
+
+
+	}
+	
+	.line{
+	width: 30%;
+	height: 30%;
+	margin-top: 20px;
+    margin-left: 30%;
+		
+	}
+	
+	.slack{
+	width: 50%;
+	height: 50%;
+	margin-left: 20%;
+	margin-top: 20px;
+
+
+	}
+	
+	
+	.mt{
+	margin-top: 20px;
+	width: 80%;
+	height: 50%;
+	margin-left: 7%;
+
+		
+	}
+	
+	.sharepoint{
+	width: 70%;
+	height: 70%;
+	padding-bottom: 20px;
+	margin-left: 12%;
+	margin-top: -20px;	
+	}
+	
+	.zendesk{
+			
+        width: 60%;
+    	height: 20%;
+		margin-left: 20%;
+		padding-bottom: 10px;
+	}
+	
+	
+/*メディア掲載実績・取材・登壇実績*/
+
+	.jisseki{
+		width: 100%;
+		height: 100%;
+		background-color: #f8f8f8;
+		margin: auto;
+		margin-top:10px;	
+		text-align: center;
+		
+	}
+	
+	.jisseki br{
+		display: none;
+	}
+	
+	.jisseki-title h2{
+		width: 80%;
+		margin: auto;
+		padding-bottom: 30px;
+	}
+	
+	.jisseki h2{
+	 margin-top:30px;
+     display: flex;
+     align-items: center;
+	 font-family:"ヒラギノ丸ゴ Pro W4","ヒラギノ丸ゴ Pro","Hiragino Maru Gothic Pro","ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","HG丸ｺﾞｼｯｸM-PRO","HGMaruGothicMPRO";
+	 color: #0068b7;
+   }
+    .jisseki h2:before,
+    .jisseki h2:after {
+       border-top: 4px solid #0068b7;
+       content: "";
+       flex-grow: 1;
+}
+    .jisseki h2:before {
+       margin-right: 1rem;
+}
+    .jisseki h2:after {
+       margin-left: 1rem;
+}
+	
+	
+	.syuzai{
+	display:inline-block;
+	vertical-align: top;
+	margin-bottom: 30px;
+
+	}
+	
+	.syuzai h3{
+    font-family:"ヒラギノ丸ゴ Pro W4","ヒラギノ丸ゴ Pro","Hiragino Maru Gothic Pro","ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","HG丸ｺﾞｼｯｸM-PRO","HGMaruGothicMPRO";
+	color: #0068b7;
+	line-height: 18px;
+	}
+	
+	.syuzai p{
+    font-family: 'Kozuka Gothic Pr6N';
+	line-height: 18px;
+	color: black;
+
+	}
+	
+	.media-keisai{
+		width: 100%;
+		height: 60%
+	}
+	
+	.media{
+		padding-top:45px;
+		padding-bottom: 45px;
+		text-align: center;
+	}
+	
+	.media h3 {
+	font-family:"ヒラギノ丸ゴ Pro W4","ヒラギノ丸ゴ Pro","Hiragino Maru Gothic Pro","ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","HG丸ｺﾞｼｯｸM-PRO","HGMaruGothicMPRO";
+	color: #0068b7;
+	line-height: 18px;
+		
+	}
+	
+	.media p{
+    font-family: 'Kozuka Gothic Pr6N';
+	line-height: 18px;
+	color: black;
+
+		
+	}
+	
+	.syuzai2{
+		
+		display:inline-block;
+    	vertical-align: top;
+		margin-top: 20px;
+		width: 100%;
+		margin-bottom: 30px;
+	}
+	
+	
+	.syuzai2 h3 {
+		font-family:"ヒラギノ丸ゴ Pro W4","ヒラギノ丸ゴ Pro","Hiragino Maru Gothic Pro","ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","HG丸ｺﾞｼｯｸM-PRO","HGMaruGothicMPRO";
+	    color: #0068b7;
+	    line-height: 18px;
+	}
+	
+	.syuzai2 p{
+	font-family: 'Kozuka Gothic Pr6N';
+	line-height: 18px;
+	color: black;
+	}
+	
+	
+/*導入事例*/
+	
+	
+	.dounyu-jirei{
+		width: 100%;
+	}
+	
+	.dounyu-jirei h2{
+		font-size: 25px;
+		margin-bottom: 30px;
+	}
+	
+	.dounyu-jirei h3{
+	width: 80%;
+    padding: 0.5em 1em;
+    margin: 2em 0;
+    font-weight: bold;
+    color: #fff;/*文字色*/
+    background: #0068b7;
+    border: solid 3px #0068b7;/*線*/
+    border-radius: 10px;/*角の丸み*/
+	font-family:"ヒラギノ丸ゴ Pro W4","ヒラギノ丸ゴ Pro","Hiragino Maru Gothic Pro","ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","HG丸ｺﾞｼｯｸM-PRO","HGMaruGothicMPRO";
+	margin: auto;
+	margin-top:30px;
+	margin-bottom: 30px;
+		
+	}
+.dounyu-jirei h3 {
+	text-align: center;
+	    margin: auto;
+
+}
+	
+	.box1 {
+    position: relative;
+    margin: 2em 0;
+	padding: 0.5em 1em;
+    border: solid 3px #0068b7;
+    border-radius: 10px;
+	text-align: center;
+	
+	}
+   
+	.box1 .box1-title {
+    position: absolute;
+	display: inline-block;
+    top: -10px;
+	left:3%;
+	font-size: 3.5vw;
+    padding: 0 9px;
+    line-height: 1;
+    background: #f8f8f8;
+    color: #0068b7;
+    font-weight: bold;
+    font-family:"ヒラギノ丸ゴ Pro W4","ヒラギノ丸ゴ Pro","Hiragino Maru Gothic Pro","ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","HG丸ｺﾞｼｯｸM-PRO","HGMaruGothicMPRO";
+}
+
+	.box1 p {
+	margin-top: 10px;	
+    margin-bottom: 10px;
+	font-family:"ヒラギノ丸ゴ Pro W4","ヒラギノ丸ゴ Pro","Hiragino Maru Gothic Pro","ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","HG丸ｺﾞｼｯｸM-PRO","HGMaruGothicMPRO";
+	}
+	
+
+	.piano-logo{
+    display: none;
+	}
+	
+	
+	
+	.box2 {
+    position: relative;
+    margin: 2em 0;
+	padding: 0.5em 1em;
+    border: solid 3px #0068b7;
+    border-radius: 10px;
+
+	}
+   
+	.box2 .box2-title {
+    position: absolute;
+    display: inline-block;
+    top: -7px;
+    left: 2%;
+    padding: 0 9px;
+    line-height: 1;
+    font-size: 3.5vw;
+    background: #f8f8f8;
+    color: #0068b7;
+    font-weight: bold;
+    font-family:"ヒラギノ丸ゴ Pro W4","ヒラギノ丸ゴ Pro","Hiragino Maru Gothic Pro","ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","HG丸ｺﾞｼｯｸM-PRO","HGMaruGothicMPRO";
+}
+
+	.box2 p {
+	margin-top: 10px;	
+    margin-bottom: 10px;
+	font-family:"ヒラギノ丸ゴ Pro W4","ヒラギノ丸ゴ Pro","Hiragino Maru Gothic Pro","ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","HG丸ｺﾞｼｯｸM-PRO","HGMaruGothicMPRO";
+}
+	
+	
+	.human-a{
+		display:none;
+			
+	}
+	
+	.box3 {
+    position: relative;
+    margin: 2em 0;
+	padding: 0.5em 1em;
+    border: solid 3px #0068b7;
+    border-radius: 10px;
+
+	}
+   
+	.box3 .box3-title {
+    position: absolute;
+    display: inline-block;
+    top: -10px;
+    left: 9%;
+    padding: 0 9px;
+    line-height: 1;
+    font-size: 3.5vw;
+    background: #f8f8f8;
+    color: #0068b7;
+    font-weight: bold;
+    font-family:"ヒラギノ丸ゴ Pro W4","ヒラギノ丸ゴ Pro","Hiragino Maru Gothic Pro","ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","HG丸ｺﾞｼｯｸM-PRO","HGMaruGothicMPRO";
+}
+
+	.box3 p {
+	margin-top: 10px;	
+    margin-bottom: 10px;
+	font-family:"ヒラギノ丸ゴ Pro W4","ヒラギノ丸ゴ Pro","Hiragino Maru Gothic Pro","ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","HG丸ｺﾞｼｯｸM-PRO","HGMaruGothicMPRO";
+}
+	
+	.jirei4{
+		margin-top: -50px;
+	}
+	
+	.human-b{
+	display: none;
+	}
+	
+	.box10 {
+    position: relative;
+    margin: 2em 0;
+	padding: 0.5em 1em;
+    border: solid 3px #0068b7;
+    border-radius: 10px;
+	text-align: center;
+	
+	}
+   
+	.box10 .box10-title {
+    position: absolute;
+	display: inline-block;
+    top: -10px;
+	left:22%;
+	font-size: 3.5vw;
+    padding: 0 9px;
+    line-height: 1;
+    background: #f8f8f8;
+    color: #0068b7;
+    font-weight: bold;
+    font-family:"ヒラギノ丸ゴ Pro W4","ヒラギノ丸ゴ Pro","Hiragino Maru Gothic Pro","ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","HG丸ｺﾞｼｯｸM-PRO","HGMaruGothicMPRO";
+}
+
+	.box10 p {
+	margin-top: 10px;	
+    margin-bottom: 10px;
+	font-family:"ヒラギノ丸ゴ Pro W4","ヒラギノ丸ゴ Pro","Hiragino Maru Gothic Pro","ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","HG丸ｺﾞｼｯｸM-PRO","HGMaruGothicMPRO";
+	}
+	
+
+	.human-c{
+		
+    display: none;}
+	
+	
+	.box11 {
+    position: relative;
+    margin: 2em 0;
+	padding: 0.5em 1em;
+    border: solid 3px #0068b7;
+    border-radius: 10px;
+	text-align: center;
+	
+	}
+   
+	.box11 .box11-title {
+    position: absolute;
+	display: inline-block;
+    top: -10px;
+	left:7%;
+	font-size: 3.5vw;
+    padding: 0 9px;
+    line-height: 1;
+    background: #f8f8f8;
+    color: #0068b7;
+    font-weight: bold;
+    font-family:"ヒラギノ丸ゴ Pro W4","ヒラギノ丸ゴ Pro","Hiragino Maru Gothic Pro","ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","HG丸ｺﾞｼｯｸM-PRO","HGMaruGothicMPRO";
+}
+
+	.box11 p {
+	margin-top: 10px;	
+    margin-bottom: 10px;
+	font-family:"ヒラギノ丸ゴ Pro W4","ヒラギノ丸ゴ Pro","Hiragino Maru Gothic Pro","ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","HG丸ｺﾞｼｯｸM-PRO","HGMaruGothicMPRO";
+	}
+	
+
+	.human-d{
+		
+    display: none;}
+	
+	
+	/*myopeofficeとチャットボットの違い*/
+	
+	.tigai{
+		background-color: #fff;
+		width: 100%;
+		margin: auto;
+		padding-bottom: 180px;
+	}
+	
+	
+	
+	.tigailogo{
+		width: 80%;
+	    height: 90%;
+	}
+	
+	.tigaiunderline{
+		width: 90%;
+	}
+	
+	.midashi{
+		width: 100%;
+		text-align: center;
+		padding-top:100px;
+		
+	}
+	
+	.merit{
+		width: 100%;
+	}
+	
+	.merit li{
+		width: 100%;
+		margin: auto;
+		margin-top: 40px;
+		font-family:"ヒラギノ丸ゴ Pro W4","ヒラギノ丸ゴ Pro","Hiragino Maru Gothic Pro","ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","HG丸ｺﾞｼｯｸM-PRO","HGMaruGothicMPRO";
+		font-size: 3.5vw;
+        border-bottom: solid 3.5px #dadada;/*下に灰色線*/
+		list-style-image:url(../img/黄丸.png);
+		vertical-align: center;
+        font: bold;
+	}
+
+/*導入までの流れ*/
+
+	.nagare{
+		background-image: url(../img/bg9.png);
+		width: 100%;
+		margin: auto;
+		padding-top:10px;
+	    margin-top: -120px;
+
+	}
+	
+	.nagare6made{
+		width: 100%;
+		height: 100%;
+	}
+	
+	.nagaretitle{
+		width: 100%;
+		height: 100%;
+	}
+
+	.under5{
+		margin-top: px
+	}
+	
+	/*導入は専任のコンサル担当が担当します*/
+	
+	.kadai{
+		margin: auto;
+		width:100%;
+		background-color: #fff;
+	}
+	
+	.tantou{
+		margin-top: 0px;
+		text-align: center;
+
+	}
+	
+	.tantoushimasu{
+		width: 90%;
+		height: 80%;
+
+	}
+	
+
+	
+	.box4 { 
+	position: relative;
+    margin: 2em 0;
+	padding: 0.5em 1em;
+    border: solid 7px #0068b7;
+    border-radius: 30px;
+	width: 80%;
+	margin: auto;
+	}
+   
+	.box4 .box4-title {
+    position: absolute;
+	display: inline-block;
+	top: -10px;
+    line-height: 1;
+    font-size: 5vw;
+    background: #fff;
+    color: #0068b7;
+    font-weight: bold;
+    font-family:"ヒラギノ丸ゴ Pro W4","ヒラギノ丸ゴ Pro","Hiragino Maru Gothic Pro","ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","HG丸ｺﾞｼｯｸM-PRO","HGMaruGothicMPRO";
+	margin-left: -42%;
+}
+
+	.box4 p {
+	margin-top: 10px;	
+    margin-bottom: 10px;
+	font-family:"ヒラギノ丸ゴ Pro W4","ヒラギノ丸ゴ Pro","Hiragino Maru Gothic Pro","ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","HG丸ｺﾞｼｯｸM-PRO","HGMaruGothicMPRO";
+}
+	
+	.box4 h3{
+		text-align: center;
+        margin: auto;
+		background-color: #0068b7;
+		width: 70%;
+		background-repeat: no-repeat;
+        font-size: 27px;
+        color: white;
+		font-family:"ヒラギノ丸ゴ Pro W4","ヒラギノ丸ゴ Pro","Hiragino Maru Gothic Pro","ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","HG丸ｺﾞｼｯｸM-PRO","HGMaruGothicMPRO";
+		border-radius: 10px; 
+		margin-bottom: 10px;
+	}
+	
+	.teityaku{
+		display: none;
+	}
+	
+	.yellow-line p{
+       text-align: center;
+        margin: auto;
+		width: 80%;
+		background-repeat: no-repeat;
+        font-size: 15px;
+		font-family:"ヒラギノ丸ゴ Pro W4","ヒラギノ丸ゴ Pro","Hiragino Maru Gothic Pro","ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","HG丸ｺﾞｼｯｸM-PRO","HGMaruGothicMPRO";
+		border-radius: 10px; 
+		margin-bottom: 10px;
+	}
+	
+	.blue-line{
+		padding-top:25px;
+	}
+	
+	.shita p{
+		background-color:#fff891;
+         font-family:"ヒラギノ丸ゴ Pro W4","ヒラギノ丸ゴ Pro","Hiragino Maru Gothic Pro","ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","HG丸ｺﾞｼｯｸM-PRO","HGMaruGothicMPRO";
+		color: rgba(85,82,82,1.00);
+		font-size: 2vw;
+	}
+	
+	.ue p{
+		background-color:#fff891;
+         font-family:"ヒラギノ丸ゴ Pro W4","ヒラギノ丸ゴ Pro","Hiragino Maru Gothic Pro","ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","HG丸ｺﾞｼｯｸM-PRO","HGMaruGothicMPRO";
+		color: rgba(85,82,82,1.00);
+		font-size: 2vw;
+	}
+	
+	
+	
+	
+	
+	.yellow-line  h4{
+		
+        background-color: #fff891;
+		width: 100%;
+        font-size: 3.5vw;
+		font-family:"ヒラギノ丸ゴ Pro W4","ヒラギノ丸ゴ Pro","Hiragino Maru Gothic Pro","ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","HG丸ｺﾞｼｯｸM-PRO","HGMaruGothicMPRO";
+		color: #626262;
+		padding-top:18px;
+		border-radius: 10px;
+		padding-bottom: 15px
+
+	}
+	
+	.yellow-line h4{
+		margin-bottom: 50px;
+	}
+	
+    .yellow-line h4{
+		 display:inline-block;
+		 vertical-align: top;
+	}
+	
+	.matome p{
+		
+	}
+	
+	.box-5 {
+    position: relative;
+    margin: 2em 0;
+	padding: 0.5em 1em;
+    border: solid 7px #0068b7;
+    border-radius: 30px;
+	text-align: center;
+    width: 80%;
+    margin:auto;
+    padding-bottom: 30px;
+    margin-top:70px;
+	margin-bottom: 75px;
+		
+	}
+   
+	.box-5 .box5-title {
+    position: absolute;
+	display: inline-block;
+    top: -14px;
+	padding: 0 9px;
+    line-height: 1;
+    font-size: 30px;
+    background: #fff;
+    color: #0068b7;
+    font-family:"ヒラギノ丸ゴ Pro W4","ヒラギノ丸ゴ Pro","Hiragino Maru Gothic Pro","ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","HG丸ｺﾞｼｯｸM-PRO","HGMaruGothicMPRO";
+    margin-left: 10%;
+}
+
+	.box-5 p {
+	margin-top: 35px;	
+	font-family:"ヒラギノ丸ゴ Pro W4","ヒラギノ丸ゴ Pro","Hiragino Maru Gothic Pro","ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","HG丸ｺﾞｼｯｸM-PRO","HGMaruGothicMPRO";
+	color: #0068b7;
+    font-size:;
+	display:inline-block;
+	vertical-align: top;
+}
+	.btn{
+		margin-top:-30px;
+	}
+	
+	
+/*質問項目欄*/	
+	
+	.question{
+		width: 100%;
+	    height: 100%;
+        margin: auto;
+        background-image: url(../img/bg11.png);
+		background-repeat: no-repeat;
+		margin-top:-55px;
+	}
+	
+	.shitumon{
+		width: 100%;
+		margin-top: 100px;
+		padding-bottom: 40px;
+	}
+	
+	.qaq{
+		width: 100%;
+	}
+	
+	.question h3{
+	font-size: 18px;	    
+    margin: 2em 0;
+    font-weight: bold;
+    color: #fff;/*文字色*/
+    background: #0068b7;
+    border: solid 10px #0068b7;/*線*/
+    border-radius: 10px;/*角の丸み*/
+	font-family:"ヒラギノ丸ゴ Pro W4","ヒラギノ丸ゴ Pro","Hiragino Maru Gothic Pro","ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","HG丸ｺﾞｼｯｸM-PRO","HGMaruGothicMPRO";
+	display:inline-block;
+	vertical-align: top;
+	width: 80%;
+	text-align: center;
+	}
+	
+	
+	
+	.question p{
+		
+	font-size: 14px;	    
+    margin: 2em 0;
+    color: ;/*文字色*/
+    background: #fff;
+    border: solid 15px #fff;/*線*/
+    border-radius: 10px;/*角の丸み*/
+	font-family:"ヒラギノ丸ゴ Pro W4","ヒラギノ丸ゴ Pro","Hiragino Maru Gothic Pro","ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","HG丸ｺﾞｼｯｸM-PRO","HGMaruGothicMPRO";
+    display:inline-block;
+	vertical-align: top;	
+	margin-top:-30px;
+    width: 79%;
+}
+	
+	.koumoku{
+		width: 100%;
+		margin: auto;
+	}
+	
+	
+	.q{
+        margin-top:40px;
+		display:none;
+	}
+	
+	.a{
+       margin-top:-30px;
+		display: none;
+
+	}
+	
+	.under5{
+		width: 100%;
+	}
+	.under3{
+		width: 100%;
+	}
+	
+	.underline4{
+		width: 100%;
+	}
+	
+	
+	
+	/*詳しい資料はこちらから*/
+	.form{
+	 margin-top: -30px;
+	  width: 100%;
+      background-color:	#fff;
+	}
+	
+	.form-title{
+	text-align: center;		
+	
+	}
+	
+	.f-title{
+		width: 90%;
+		height: 60%;
+		padding-top: 30px;
+	}
+	
+	.form p{
+		text-align: center;
+		font-family:"ヒラギノ丸ゴ Pro W4","ヒラギノ丸ゴ Pro","Hiragino Maru Gothic Pro","ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","HG丸ｺﾞｼｯｸM-PRO","HGMaruGothicMPRO";
+		font-size: 20px;
+	}
+	
+	
+	.footer p{
+		background-color: #0068b7;
+		font: font-family:"ヒラギノ丸ゴ Pro W4","ヒラギノ丸ゴ Pro","Hiragino Maru Gothic Pro","ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","HG丸ｺﾞｼｯｸM-PRO","HGMaruGothicMPRO";
+		font-size: 20px;
+		text-align: center;
+        color: aliceblue;
+        border-radius: 15px;/*角の丸み*/
+	   padding: 0.5em 1em;
+	}
+	
+}
+	
+	
+	
+	
+	
