@@ -244,7 +244,7 @@ form#mail_form p#form_submit{
 	border-top : 1px solid #cccccc;
 }
 
-form#mail_form input[type="button"]{
+form#mail_form input[type="submit"]{
 	padding : 10px 20px;
 	vertical-align : middle;
 	line-height : 1;
@@ -257,7 +257,7 @@ form#mail_form input[type="button"]{
 	font-size : 15px;
 
 }
-form#mail_form input[type="button"]:hover{
+form#mail_form input[type="submit"]:hover{
 	cursor : pointer;
 	background : #48a7ef;
 	border : 1px solid #48a7ef;
