@@ -1,0 +1,50 @@
+@charset "UTF-8";
+
+/* 元のstyle.cssが長すぎてメンテが難しかったので、共通cssをこのcssに切り出す */
+
+.box-default {
+  text-align: left;
+  position: relative;
+  padding: 0.5em 1em;
+  padding-bottom: 30px;
+  border: solid 7px #0068b7;
+  border-radius: 30px;
+  width: 83%;
+  margin:auto;
+  margin-top:70px;
+  margin-bottom: 75px;
+}
+
+.box-title {
+  position: absolute;
+  width: 100%;
+  top: -18px;
+  line-height: 1;
+  font-size: 30px;
+  color: #0068b7;
+  font-family:"ヒラギノ丸ゴ Pro W4","ヒラギノ丸ゴ Pro","Hiragino Maru Gothic Pro","ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","HG丸ｺﾞｼｯｸM-PRO","HGMaruGothicMPRO";
+  text-align:center;
+}
+
+.box-title span {
+  background: #fff;
+  padding: 0 9px;
+}
+
+.header-m {
+  font-size: 20px;
+  padding: 0.5em 1em;
+  margin: 2em 0;
+  font-weight: bold;
+  color: #fff;/*文字色*/
+  background: #0068b7;
+  border: solid 3px #0068b7;/*線*/
+  border-radius: 10px;/*角の丸み*/
+	font-family:"ヒラギノ丸ゴ Pro W4","ヒラギノ丸ゴ Pro","Hiragino Maru Gothic Pro","ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","HG丸ｺﾞｼｯｸM-PRO","HGMaruGothicMPRO";
+}
+
+.header-s {
+  font-size: 15px;
+  font-weight: bold;
+  margin-top: 10px;
+}

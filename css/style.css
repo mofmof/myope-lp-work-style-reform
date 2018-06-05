@@ -846,7 +846,7 @@ a:hover {
 	.kadai{
 		margin: auto;
 		width:998px;
-		height: 1200px;
+		height: 1800px;
 		background-color: #fff;
 	}
 
@@ -985,7 +985,7 @@ z		font-family:"ヒラギノ丸ゴ Pro W4","ヒラギノ丸ゴ Pro","Hiragino Ma
 }
 
 	.box-5 p {
-	margin-top: 35px;
+	  margin-top: 35px;
     margin-bottom: 0px;
 	font-family:"ヒラギノ丸ゴ Pro W4","ヒラギノ丸ゴ Pro","Hiragino Maru Gothic Pro","ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","HG丸ｺﾞｼｯｸM-PRO","HGMaruGothicMPRO";
 	color: #0068b7;
