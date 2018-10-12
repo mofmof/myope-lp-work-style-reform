@@ -168,7 +168,7 @@ form#mail_form textarea{
 	display : block;
 	width : 90%;
 	max-width : 90%;
-	height : 200px;
+	height : 100px;
 	padding : 2px 2%;
 	resize : vertical;
 	border : 1px solid #cccccc;
