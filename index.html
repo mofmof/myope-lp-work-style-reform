@@ -67,6 +67,16 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
 })(window,document,'script','dataLayer','GTM-W969884');</script>
 <!-- End Google Tag Manager -->
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-130054522-3"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-130054522-3');
+</script>
 </head>
 <body>
   <!-- Google Tag Manager (noscript) -->
@@ -742,6 +752,22 @@ HIPAA準拠アーキテクチャなどの認定を得ている国際基準の高
 	// スムーススクロールを起動する
 	smoothScroll.init() ;
 </script> -->
+<script>
+  $(function() {
+    $("#form_submit_button").click(function() {
+      var company = $("input[name='company']").val();
+      var name = $("input[name='name']").val();
+      var mail_address = $("input[name='mail_address']").val();
+      if (company && name && mail_address) {
+        ga("send", "event", {
+          eventCategory: "contact",
+          eventActioin: "submit",
+          transport: "beacon"
+        });
+      }
+    })
+  })
+</script>
 
 </body>
 </html>
