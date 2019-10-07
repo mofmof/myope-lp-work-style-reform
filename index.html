@@ -767,5 +767,22 @@ HIPAA準拠アーキテクチャなどの認定を得ている国際基準の高
   })
 </script>
 
+<script>
+  $(function() {
+    $("#form_submit_button").click(function() {
+      var company = $("input[name='company']").val();
+      var name = $("input[name='name']").val();
+      var mail_address = $("input[name='mail_address']").val();
+      if (company && name && mail_address) {
+        ga("send", "event", {
+          eventCategory: "contact",
+          eventActioin: "submit",
+          transport: "beacon"
+        });
+      }
+    })
+  })
+</script>
+
 </body>
 </html>
